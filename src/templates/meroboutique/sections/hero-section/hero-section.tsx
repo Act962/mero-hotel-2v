@@ -18,13 +18,12 @@ export function HeroSection() {
           </h1>
 
           <p className="text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
-            ullam voluptatem iure modi delectus consequuntur ipsam molestias,
-            cum provident dignissimos blanditiis iste, porro eius mollitia?
-            Neque id tempora placeat dicta! Minima culpa et a veniam labore
-            facere cupiditate. Minus quo sequi similique quas quibusdam.
-            Sapiente rerum soluta architecto ullam possimus voluptas, id, sunt
-            aliquid repellendus quam, laboriosam commodi quia et.
+            No Mero Hotel Boutique, em Barra Grande-PI, cada amanhecer é
+            memorável. Nosso refúgio mediterrâneo oferece acomodações com
+            piscinas privativas ou jacuzzis, massagens e hidromassagens
+            térmicas. Desfrute do chá da tarde e do acesso ao Mero Mar Lounge.
+            Atendimento dedicado e café da manhã na varanda opcional
+            elevam a experiência.
           </p>
         </div>
       </div>

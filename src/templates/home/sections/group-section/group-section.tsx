@@ -4,22 +4,22 @@ const GROUPS = [
   {
     title: "MERO BOUTIQUE",
     description:
-      "No Mero Hotel Boutique, em Barra Grande-PI, cada amanhecer é memorável. Nosso refúgio mediterrâneo oferece acomodações com piscinas privativas ou jacuzzis, massagens e hidromassagens térmicas. Desfrute do chá da tarde e do acesso ao Mero Mar Lounge. Atendimento dedicado e café da manhã na varanda opcional elevam a experiência.",
-    imageUrl: "/image-3.jpg",
+      "No Mero Hotel Boutique, em Barra Grande-PI, o sol se ergue em memórias. Nosso oásis mediterrâneo sussurra conforto com piscinas ou jacuzzis privativas, toques de bem-estar e o abraço do Mero Mar Lounge. Desperte para um delicioso café da manhã!",
+    imageUrl: "/mero-hotel-boutique.jpg",
     link: "/meroboutique",
   },
   {
     title: "MERO LOUNGE",
     description:
       "No Mero Mar Lounge, em Barra Grande, a gastronomia encontra o charme à beira-mar. Pés na areia, coquetéis e pratos poéticos criam uma imersão sensorial profunda. Perfeito para almoços e pôr do sol, é mais que um restaurante: é a arte de viver com leveza e sabor.",
-    imageUrl: "/image-4.jpg",
+    imageUrl: "/mero-hotel-lounge.jpg",
     link: "/merolounge",
   },
   {
     title: "MERO MAR",
     description:
-      "O Mero Mar Hotel é o novo horizonte do Grupo Mero em Barra Grande. Com arquitetura contemporânea e vistas para o mar, oferece puro conforto e exclusividade. A hospitalidade Mero se eleva, desvendando vivências inesquecíveis. Prepare-se para um capítulo extraordinário.",
-    imageUrl: "/image-5.jpg",
+      "O Mero Mar Hotel será o novo horizonte do Grupo Mero em Barra Grande. Com arquitetura contemporânea e vistas para o mar, oferecerá puro conforto e exclusividade. A hospitalidade Mero se elevará, desvendando vivências inesquecíveis. Prepare-se para um capítulo extraordinário.",
+    imageUrl: "/mero-mar-hotel.jpeg",
     link: "/meromar",
   },
 ];
