@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
+import { CarouselImages } from "./carousel-imgens";
 
 interface Images {
   url: string;
@@ -30,13 +31,14 @@ export function AccommodationCard({
         imagesOnLeft && "md:flex-row-reverse"
       )}
     >
-      <div className="relative shrink-0 w-full h-72 md:w-1/3">
-        <Image
+      <div className="relative shrink-0 w-full h-80 md:w-1/3">
+        {/* <Image
           src={images[0].url}
           alt={images[0].alt}
           fill
           className="object-cover"
-        />
+        /> */}
+        <CarouselImages images={images} />
       </div>
       <div className="flex flex-col w-full items-start gap-10">
         <div className="space-y-3">

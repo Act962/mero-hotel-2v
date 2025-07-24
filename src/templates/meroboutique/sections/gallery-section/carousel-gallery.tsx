@@ -11,7 +11,7 @@ const images = [
     alt: "Image do Mero",
   },
   {
-    src: "/image-3.jpg",
+    src: "/image-4.jpg",
     alt: "Image do Mero",
   },
   {
@@ -23,7 +23,7 @@ const images = [
     alt: "Image do Mero",
   },
   {
-    src: "/image-3.jpg",
+    src: "/image-4.jpg",
     alt: "Image do Mero",
   },
   {
@@ -31,7 +31,7 @@ const images = [
     alt: "Image do Mero",
   },
   {
-    src: "/image-3.jpg",
+    src: "/image-4.jpg",
     alt: "Image do Mero",
   },
 ];
@@ -39,8 +39,8 @@ const images = [
 export function CarouselGallery() {
   const [emblaRef, embleApi] = useEmbleCarousel({
     align: "center",
-    loop: false,
-    slidesToScroll: 3,
+    loop: true,
+    slidesToScroll: 1,
   });
 
   const scrollPrev = useCallback(() => {
@@ -54,31 +54,30 @@ export function CarouselGallery() {
   }, [embleApi]);
 
   return (
-    <div
-      className="relative embla w-full mt-12 h-72 overflow-hidden "
-      ref={emblaRef}
-    >
-      <div className="embla__container h-full flex gap-2">
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className="embla__slide flex items-center justify-center min-w-0 w-full grow-0 shrink-0 basis-full relative md:w-1/3"
-          >
-            <Image src={image.src} alt={image.alt} fill />
-          </div>
-        ))}
+    <div className="relative w-full mt-12 h-96 overflow-hidden" ref={emblaRef}>
+      <div className="h-full w-full">
+        <div className="h-full flex gap-2">
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-center min-w-0 w-full grow-0 shrink-0 basis-full relative md:basis-1/3"
+            >
+              <Image src={image.src} alt={image.alt} fill />
+            </div>
+          ))}
+        </div>
       </div>
 
       <button
         onClick={scrollPrev}
         className="absolute left-0 rounded-full p-3 -translate-y-1/2 translate-x-1/2 top-1/2 z-20 bg-white cursor-pointer "
       >
-        <ChevronLeft className="!text-transparent" />
+        <ChevronLeft className="text-black" />
       </button>
 
       <button
         onClick={scrollNext}
-        className="absolute right-0 rounded-full p-3 -translate-y-1/2 translate-x-1/2 top-1/2 z-20 bg-white cursor-pointer"
+        className="absolute right-12 rounded-full p-3 -translate-y-1/2 translate-x-1/2 top-1/2 z-20 bg-white cursor-pointer"
       >
         <ChevronRight className="text-black" />
       </button>
