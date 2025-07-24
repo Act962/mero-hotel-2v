@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
+import TripAdvisorWidget from "@/components/tripadvisor/tripadvisor";
 
 const novera = localFont({
   variable: "--font-novera-sans",
@@ -50,6 +51,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body className={`${novera.variable} ${novera.className}  antialiased`}>
         {children}
+        <TripAdvisorWidget />
       </body>
     </html>
   );

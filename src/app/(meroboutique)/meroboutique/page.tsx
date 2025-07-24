@@ -5,7 +5,24 @@ import React from "react";
 export const metadata: Metadata = {
   title: "Mero Hotel | Boutique",
   description:
-    "No Mero Hotel Boutique, em Barra Grande-PI, cada amanhecer é memorável. Nosso refúgio mediterrâneo oferece acomodações com piscinas privativas ou jacuzzis, massagens e hidromassagens térmicas. Desfrute do chá da tarde e do acesso ao Mero Mar Lounge. Atendimento dedicado e café da manhã na varanda opcional elevam a experiência.",
+    "No Mero Hotel Boutique, em Barra Grande-PI, o sol se ergue em memórias. Nosso oásis mediterrâneo sussurra conforto com piscinas ou jacuzzis privativas, toques de bem-estar e o abraço do Mero Mar Lounge. Desperte para um delicioso café da manhã!",
+  openGraph: {
+    title: "Mero Hotel | Boutique",
+    description:
+      "No Mero Hotel Boutique, em Barra Grande-PI, o sol se ergue em memórias. Nosso oásis mediterrâneo sussurra conforto com piscinas ou jacuzzis privativas, toques de bem-estar e o abraço do Mero Mar Lounge. Desperte para um delicioso café da manhã!",
+    url: "https://mero-hotel.vercel.app/meroboutique",
+    siteName: "Mero Hotel | Boutique",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "https://mero-hotel.vercel.app/mero-hotel-boutique.jpg",
+        width: 800,
+        height: 600,
+        alt: "Mero Hotel | Boutique",
+      },
+    ],
+  },
 };
 
 export default function MeroBoutique() {
