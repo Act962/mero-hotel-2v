@@ -1,6 +1,6 @@
 export function WelcomeSection() {
   return (
-    <div className="w-full flex flex-col items-center justify-center px-4 relative py-16">
+    <div className="w-full flex flex-col items-center justify-center px-8 relative py-16">
       <div className="flex flex-col gap-6 max-w-6xl text-center">
         <h1 className="text-xl sm:text-3xl font-medium tracking-[0.8rem] uppercase">
           Bem-vindo

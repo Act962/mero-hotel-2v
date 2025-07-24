@@ -31,7 +31,7 @@ export function AccommodationCard({
         alt={images[0].alt}
         width={400}
         height={400}
-        className="object-cover h-96 w-full md:w-1/3"
+        className="object-cover h-64 md:h-96 w-full md:w-1/3"
       />
 
       <div className="flex flex-col w-full items-start gap-10">

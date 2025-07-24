@@ -90,7 +90,7 @@ const accommodations = [
 
 export function AccommodationSection() {
   return (
-    <section className="min-h-screen h-auto py-36 px-4">
+    <section className="min-h-screen h-auto py-36 px-8">
       <div className="w-full max-w-6xl mx-auto flex flex-col items-center gap-24">
         {accommodations.map((accommodation, index) => (
           <AccommodationCard
