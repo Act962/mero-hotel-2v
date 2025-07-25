@@ -35,9 +35,7 @@ export function CardGroup({
       </Link>
 
       <div className="flex flex-col gap-3">
-        <p className="text-xs sm:text-sm font-medium text-justify">
-          {description}
-        </p>
+        <p className="text-sm text-justify">{description}</p>
 
         <Separator />
         <Link
