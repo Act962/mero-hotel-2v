@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +6,7 @@ export const TripAdvisorWidget = () => {
     <Link
       href="https://www.tripadvisor.com.br/Hotel_Review-g3844531-d21510631-Reviews-Mero_Hotel_Boutique-Barra_Grande_Cajueiro_da_Praia_State_of_Piaui.html"
       target="_blank"
-      className="fixed bottom-24 border border-l-0 shadow bg-white flex justify-end w-20 hover:w-28 transition-all duration-300 hover:shadow-3xl"
+      className="fixed bottom-24 border border-l-0 shadow bg-white flex justify-end w-20 hover:w-28 transition-all duration-300 hover:shadow-2xl"
     >
       <Image
         src="https://static.tacdn.com/img2/travelers_choice/widgets/tchotel_2025_L.png"
