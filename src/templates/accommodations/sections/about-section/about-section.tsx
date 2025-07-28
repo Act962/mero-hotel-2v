@@ -14,13 +14,15 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
 
   return (
     <section className="bg-background min-h-screen flex justify-center items-center px-8 py-32">
-      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-32 ">
+      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-32 ">
         <div>
-          <h3 className=" text-lg  md:text-xl font-medium tracking-[0.6rem] uppercase">
+          <h3 className=" text-lg  md:text-xl font-medium tracking-[0.6rem] uppercase ">
             {accomodation.name}
           </h3>
-          <p className="mt-8 text-sm font-light">{accomodation.description}</p>
-          <Button variant="ligth" className="mt-6">
+          <p className="mt-8 text-sm font-light whitespace-pre-line">
+            {accomodation.description}
+          </p>
+          <Button variant="ligth" className="mt-7">
             Reserve agora
           </Button>
         </div>
@@ -30,7 +32,7 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
           </h3>
 
           {/* Layout para Mobile: Lista simples */}
-          <div className="sm:hidden mt-8">
+          <div className="md:hidden mt-8">
             <ul className="space-y-2">
               {accomodation.services.map((service, index) => (
                 <li
@@ -44,7 +46,7 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
           </div>
 
           {/* Layout para Desktop: Grid com separators */}
-          <div className="hidden sm:block space-y-4 mt-8">
+          <div className="hidden md:block space-y-4 mt-8">
             {groupedServices.map((serviceRow, rowIndex) => (
               <div key={rowIndex}>
                 <div className="grid grid-cols-2 gap-2">
