@@ -15,7 +15,6 @@ export function HomePage() {
       <GroupSection />
       <ExperiencesSection />
       <AccommodationSection />
-      {/* <FaqSection /> */}
       <LocationSection />
     </>
   );

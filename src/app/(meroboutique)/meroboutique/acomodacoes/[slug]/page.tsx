@@ -1,5 +1,6 @@
 import { allAccomodations } from "@/lib/accomadations-boutique";
-import { AccommodationPage } from "@/templates/accommodation-page";
+import { AccommodationPage } from "@/templates/accommodations/accommodation-page";
+
 import { redirect } from "next/navigation";
 
 type AccomodationPageProps = {

@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive cursor-pointer",
   {
     variants: {
       variant: {
@@ -19,11 +19,11 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         primary:
-          "bg-[#272727] uppercase rounded-none px-10 tracking-[0.2rem] font-light hover:bg-[#272727]/90 text-white",
+          "bg-[#272727] uppercase rounded-none px-10 tracking-[0.2rem] font-light hover:bg-[#272727]/60 text-white",
         secondary:
           "bg-[#E3E3E3] uppercase rounded-none px-10 tracking-[0.2rem] font-light hover:bg-[#E3E3E3]/90 text-[#696969]",
         ligth:
-          "bg-white uppercase rounded-none px-10 tracking-[0.2rem] font-light hover:bg-white/90 text-[#696969] font-semibold",
+          "bg-white uppercase rounded-none px-10 tracking-[0.2rem] font-light hover:bg-white/60 text-[#696969] font-semibold",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

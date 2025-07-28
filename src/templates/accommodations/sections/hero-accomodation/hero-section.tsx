@@ -4,7 +4,7 @@ interface HeroSectionsProps {
   title?: string;
 }
 
-export function HeroSection({ title }: HeroSectionsProps) {
+export function HeroAccomodation({ title }: HeroSectionsProps) {
   return (
     <div className="relative h-[80vh] md:h-screen w-full bg-gray-900">
       <video

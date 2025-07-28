@@ -1,6 +1,6 @@
 import { CallToBook } from "@/components/call-to-book";
-import { FooterBoutique } from "@/components/footer-boutique";
-import { NavbarBoutique } from "@/components/navbar-meroboutique";
+import { FooterBoutique } from "@/components/footer";
+import { NavbarBoutique } from "@/components/navbar";
 
 type MeroBoutiqueLayoutProps = {
   children: React.ReactNode;

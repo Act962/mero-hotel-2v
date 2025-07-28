@@ -1,5 +1,5 @@
 import { Accomodation } from "@/types/accomodation";
-import { AboutSection, GallerySection, HeroSection } from "./sections";
+import { AboutSection, GallerySection, HeroAccomodation } from "./sections";
 
 type AccommodationPageProps = {
   accomodation: Accomodation;
@@ -8,7 +8,7 @@ type AccommodationPageProps = {
 export function AccommodationPage({ accomodation }: AccommodationPageProps) {
   return (
     <>
-      <HeroSection title={accomodation.name} />
+      <HeroAccomodation title={accomodation.name} />
       <AboutSection accomodation={accomodation} />
       <GallerySection />
     </>
