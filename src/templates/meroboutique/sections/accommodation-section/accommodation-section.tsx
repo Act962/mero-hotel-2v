@@ -5,7 +5,7 @@ const accommodations = [
     title: "Acomodações",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/",
+    link: "/meroboutique/acomodacoes",
     imagesOnLeft: false,
     images: [
       {
@@ -22,7 +22,7 @@ const accommodations = [
     title: "Gastronomia",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/",
+    link: "/meroboutique/gastronomia",
     imagesOnLeft: true,
     images: [
       {
@@ -39,7 +39,7 @@ const accommodations = [
     title: "Espaço Fitness",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/",
+    link: "/meroboutique/espaco-fitness",
     imagesOnLeft: false,
     images: [
       {
@@ -56,7 +56,7 @@ const accommodations = [
     title: "Spa Mero",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/",
+    link: "/meroboutique/spa-mero",
     imagesOnLeft: true,
     images: [
       {
@@ -73,7 +73,7 @@ const accommodations = [
     title: "M Bar",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/",
+    link: "/meroboutique/m-bar",
     imagesOnLeft: false,
     images: [
       {
@@ -90,7 +90,7 @@ const accommodations = [
     title: "Café da Manhã",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/",
+    link: "/meroboutique/cafe-da-manha",
     imagesOnLeft: true,
     images: [
       {
@@ -115,6 +115,7 @@ export function AccommodationSection() {
             title={accommodation.title}
             description={accommodation.description}
             imagesOnLeft={accommodation.imagesOnLeft}
+            link={accommodation.link}
             images={accommodation.images}
           />
         ))}

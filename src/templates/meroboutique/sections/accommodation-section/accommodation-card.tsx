@@ -1,5 +1,7 @@
+import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Images {
   url: string;
@@ -10,6 +12,7 @@ interface AccommodationCardProps {
   title: string;
   description: string;
   images: Images[];
+  link: string;
   imagesOnLeft: boolean;
 }
 
@@ -17,6 +20,7 @@ export function AccommodationCard({
   title,
   description,
   images,
+  link,
   imagesOnLeft,
 }: AccommodationCardProps) {
   return (
@@ -40,6 +44,9 @@ export function AccommodationCard({
             {title}
           </h3>
           <p className="text-md font-light">{description}</p>
+          <Button variant="secondary">
+            <Link href={link}>Visitar</Link>
+          </Button>
         </div>
       </div>
     </div>

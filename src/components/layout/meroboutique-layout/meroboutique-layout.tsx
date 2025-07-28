@@ -1,5 +1,5 @@
 import { CallToBook } from "@/components/call-to-book";
-import { Footer } from "@/components/footer";
+import { FooterBoutique } from "@/components/footer-boutique";
 import { NavbarBoutique } from "@/components/navbar-meroboutique";
 
 type MeroBoutiqueLayoutProps = {
@@ -12,7 +12,7 @@ export function MeroBoutiqueLayout({ children }: MeroBoutiqueLayoutProps) {
       <NavbarBoutique />
       <main>{children}</main>
       <CallToBook />
-      <Footer />
+      <FooterBoutique />
     </div>
   );
 }

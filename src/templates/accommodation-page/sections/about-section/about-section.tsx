@@ -30,7 +30,7 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
           </h3>
 
           {/* Layout para Mobile: Lista simples */}
-          <div className="sm:hidden">
+          <div className="sm:hidden mt-8">
             <ul className="space-y-2">
               {accomodation.services.map((service, index) => (
                 <li

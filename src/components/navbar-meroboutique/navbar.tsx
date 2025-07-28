@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const LINKS = [
   {
-    title: "O Mero",
+    title: "Grupo Mero",
     path: "/",
   },
   {

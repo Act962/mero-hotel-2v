@@ -9,15 +9,15 @@ import Link from "next/link";
 
 const LINKS = [
   {
-    title: "O Mero",
+    title: "Grupo Mero",
     path: "/",
   },
   {
-    title: "Hotel",
+    title: "Mero Boutique",
     path: "/meroboutique",
   },
   {
-    title: "Lounge",
+    title: "Mero Lounge",
     path: "/merolounge",
   },
   {
