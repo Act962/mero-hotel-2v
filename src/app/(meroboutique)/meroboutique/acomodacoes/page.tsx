@@ -1,5 +1,5 @@
-import { AccommodationPage } from "@/templates/accommodation";
+import { AccommodationsPage } from "@/templates/accommodations";
 
 export default function Accommodation() {
-  return <AccommodationPage />;
+  return <AccommodationsPage />;
 }

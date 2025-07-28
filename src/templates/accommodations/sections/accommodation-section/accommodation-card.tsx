@@ -49,12 +49,15 @@ export function AccommodationCard({
         </div>
 
         <div className="flex items-center justify-between w-full">
-          <Button variant="secondary" className="uppercase" asChild>
-            <Link href={link}>Reserve agora</Link>
+          <Button variant="secondary" className="uppercase">
+            Reserve agora
           </Button>
-          <span className="uppercase tracking-[3px] hover:underline underline-offset-3 cursor-pointer text-sm md:text-md">
+          <Link
+            href={link}
+            className="uppercase tracking-[3px] hover:underline underline-offset-3 cursor-pointer text-sm md:text-md"
+          >
             Saiba mais
-          </span>
+          </Link>
         </div>
       </div>
     </div>

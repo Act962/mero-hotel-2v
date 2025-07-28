@@ -1,6 +1,6 @@
 import { AccommodationSection, HeroSection } from "./sections";
 
-export function AccommodationPage() {
+export function AccommodationsPage() {
   return (
     <>
       <HeroSection />
