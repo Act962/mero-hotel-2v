@@ -4,7 +4,7 @@ export function HeroSection() {
   return (
     <div className="relative h-[80vh] md:h-screen w-full bg-gray-900">
       <video
-        src="/Fasano-HoteisLazer_Hor_SemLogo-baixa-1.mp4"
+        src="/mero-hotel-boutique-video-2.mp4"
         autoPlay
         muted
         loop
