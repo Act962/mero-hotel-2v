@@ -14,9 +14,10 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
 
   return (
     <section className="bg-background min-h-screen flex justify-center items-center px-8 py-32">
-      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-32 ">
+      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-32">
+        {/* Sobre */}
         <div>
-          <h3 className=" text-lg  md:text-xl font-medium tracking-[0.6rem] uppercase ">
+          <h3 className="text-lg md:text-xl font-medium tracking-[0.6rem] uppercase">
             {accomodation.name}
           </h3>
           <p className="mt-8 text-sm font-light whitespace-pre-line">
@@ -26,6 +27,7 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
             Reserve agora
           </Button>
         </div>
+        {/* Serviços */}
         <div>
           <h3 className="text-lg md:text-xl font-medium tracking-[0.6rem] uppercase">
             Serviços

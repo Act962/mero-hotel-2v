@@ -16,6 +16,9 @@ export function HeroSection() {
           <h1 className="text-xl sm:text-5xl md:text-7xl font-semibold mb-4 uppercase tracking-[3px]">
             Mero Mar Hotel
           </h1>
+          <span className="uppercase font-light tracking-widest">
+            (Em breve)
+          </span>
         </div>
       </div>
     </div>

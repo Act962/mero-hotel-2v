@@ -1,5 +1,11 @@
 import { Accomodation } from "@/types/accomodation";
-import { AboutSection, GallerySection, HeroAccomodation } from "./sections";
+import {
+  AboutSection,
+  FeaturesSection,
+  GallerySection,
+  HeroAccomodation,
+} from "./sections";
+import { LocationBoutique } from "@/components/location";
 
 type AccommodationPageProps = {
   accomodation: Accomodation;
@@ -11,6 +17,8 @@ export function AccommodationPage({ accomodation }: AccommodationPageProps) {
       <HeroAccomodation title={accomodation.name} />
       <AboutSection accomodation={accomodation} />
       <GallerySection />
+      <FeaturesSection />
+      <LocationBoutique />
     </>
   );
 }
