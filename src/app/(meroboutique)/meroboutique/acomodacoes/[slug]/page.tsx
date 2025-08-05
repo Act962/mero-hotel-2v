@@ -1,5 +1,6 @@
 import { allAccomodations } from "@/lib/accomadations-boutique";
 import { AccommodationPage } from "@/templates/accommodations/accommodation-page";
+import { Metadata } from "next";
 
 import { redirect } from "next/navigation";
 
@@ -8,6 +9,28 @@ type AccomodationPageProps = {
     slug: string;
   }>;
 };
+
+export async function generateMetadata({
+  params,
+}: AccomodationPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const accomodation = allAccomodations.find(
+    (accommodation) => accommodation.slug === slug
+  );
+
+  if (!accomodation) {
+    return {};
+  }
+
+  return {
+    title: accomodation.name,
+    description: accomodation.description,
+    robots: "index, follow",
+    openGraph: {
+      images: [accomodation.images[0]],
+    },
+  };
+}
 
 export default async function AccomodationPage({
   params,
