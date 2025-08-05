@@ -50,7 +50,7 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/"],
+    images: ["/meroboutique/select/image-1.jpg"],
   },
   {
     name: "Superior",
@@ -101,7 +101,7 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/"],
+    images: ["/meroboutique/superior/image-1.jpg"],
   },
   {
     name: "Premium",
@@ -132,7 +132,7 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/"],
+    images: ["/meroboutique/premium/image-1.jpg"],
   },
   {
     name: "Loft",
@@ -163,7 +163,7 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/"],
+    images: ["/meroboutique/loft/image-1.jpg"],
   },
   {
     name: "Gran Class",
@@ -194,7 +194,7 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/"],
+    images: ["/meroboutique/gran-class/image-1.jpg"],
   },
   {
     name: "President",
@@ -225,6 +225,6 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/"],
+    images: ["/meroboutique/president/image-1.jpeg"],
   },
 ];
