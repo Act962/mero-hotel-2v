@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Button } from "../ui/button";
 import { useEffect, useState } from "react";
 
@@ -44,21 +45,7 @@ export function CookieBanner() {
 
     localStorage.setItem("cookie-consent", JSON.stringify(consentData));
 
-    // Aqui você pode adicionar lógica para ativar seus cookies/analytics
-    initializeCookies();
-
     setShowBanner(false);
-  };
-
-  const initializeCookies = () => {
-    // Exemplo: Google Analytics, Facebook Pixel, etc.
-    console.log("Cookies ativados - Analytics e Marketing iniciados");
-
-    // Exemplo para Google Analytics:
-    // gtag('config', 'GA_MEASUREMENT_ID')
-
-    // Exemplo para Facebook Pixel:
-    // fbq('init', 'PIXEL_ID')
   };
 
   // Não mostrar se já foi aceito
@@ -75,9 +62,12 @@ export function CookieBanner() {
             Nosso site utiliza cookies com algumas finalidades específicas. Ao
             clicar em “Aceitar”, você concorda com o uso de TODOS os cookies.
             Para mais informações acesse a nossa{" "}
-            <a href="/" className="font-bold hover:underline">
+            <Link
+              href="/politicas-de-privacidade"
+              className="font-bold hover:underline"
+            >
               Política de Privacidade
-            </a>
+            </Link>
           </h4>
           <div>
             <Button
