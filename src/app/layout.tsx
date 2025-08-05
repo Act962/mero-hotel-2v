@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
 import { TripAdvisorWidget } from "@/components/tripadvisor/tripadvisor";
+import { CookieBanner } from "@/components/cookie-banner";
 
 const novera = localFont({
   variable: "--font-novera-sans",
@@ -49,9 +50,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${novera.variable} ${novera.className}  antialiased`}>
+      <body
+        className={`${novera.variable} ${novera.className} antialiased relative`}
+      >
         {children}
         <TripAdvisorWidget />
+        <CookieBanner />
       </body>
     </html>
   );

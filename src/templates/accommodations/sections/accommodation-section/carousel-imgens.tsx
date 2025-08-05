@@ -30,7 +30,12 @@ export const CarouselImages = ({ images }: CarouselImagesProps) => {
               className="relative  translate-0 shrink-0 grow-0 size-full"
               key={index}
             >
-              <Image fill src={image.url} alt={image.alt} />
+              <Image
+                fill
+                src={image.url}
+                alt={image.alt}
+                className="object-cover"
+              />
             </div>
           ))}
         </div>
