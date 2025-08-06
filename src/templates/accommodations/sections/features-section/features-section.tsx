@@ -1,7 +1,12 @@
+import { Accomodation } from "@/types/accomodation";
 import AccommodationSuggestionsCarousel from "./accommodation-suggestions-carousel";
 import { FeaturesAccordion } from "./feature-accordion";
 
-export function FeaturesSection() {
+type Props = {
+  accomodation: Accomodation;
+};
+
+export function FeaturesSection({ accomodation }: Props) {
   return (
     <section className="relative px-4 py-32 flex flex-col items-center justify-center bg-black text-white">
       <div className="relative w-full max-w-6xl text-center mx-auto space-y-12 my-16">
@@ -9,8 +14,8 @@ export function FeaturesSection() {
           Características
         </h2>
 
-        <FeaturesAccordion />
-        <AccommodationSuggestionsCarousel />
+        <FeaturesAccordion accomodation={accomodation} />
+        <AccommodationSuggestionsCarousel accomodation={accomodation} />
       </div>
     </section>
   );

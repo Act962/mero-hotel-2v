@@ -27,7 +27,7 @@ export async function generateMetadata({
     description: accomodation.description,
     robots: "index, follow",
     openGraph: {
-      images: [accomodation.images[0]],
+      images: [accomodation.images[0].url],
     },
   };
 }

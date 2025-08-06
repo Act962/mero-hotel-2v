@@ -4,6 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { Accomodation } from "@/types/accomodation";
 
 const features = [
   {
@@ -18,7 +19,11 @@ const features = [
   },
 ];
 
-export function FeaturesAccordion() {
+type Props = {
+  accomodation: Accomodation;
+};
+
+export function FeaturesAccordion({ accomodation }: Props) {
   return (
     <Accordion type="single" collapsible>
       {features.map((feature) => (

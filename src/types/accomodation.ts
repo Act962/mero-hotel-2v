@@ -3,6 +3,11 @@ export interface AccomodationService {
   description: string;
 }
 
+type Image = {
+  url: string;
+  alt: string;
+};
+
 export interface Accomodation {
   name: string;
   slug: string;
@@ -10,5 +15,5 @@ export interface Accomodation {
   description: string;
   link: string;
   services: AccomodationService[];
-  images: string[];
+  images: Image[];
 }

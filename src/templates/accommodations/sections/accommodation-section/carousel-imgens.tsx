@@ -27,7 +27,7 @@ export const CarouselImages = ({ images }: CarouselImagesProps) => {
         <div className="flex gap-2 size-full">
           {images.map((image, index) => (
             <div
-              className="relative  translate-0 shrink-0 grow-0 size-full"
+              className="relative translate-0 shrink-0 grow-0 size-full"
               key={index}
             >
               <Image

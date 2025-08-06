@@ -1,10 +1,12 @@
 import React from "react";
 
+// Adicioanr h-[80vh]
+
 export function HeroSection() {
   return (
-    <div className="relative h-[80vh] md:h-screen w-full bg-gray-900">
+    <div className="relative md:h-screen w-full bg-gray-900">
       <video
-        src="/MERO-HOTEL-VIDEO.mp4"
+        src="/mero-lounge-video.mp4"
         autoPlay
         muted
         loop

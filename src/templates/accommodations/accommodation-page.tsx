@@ -17,7 +17,7 @@ export function AccommodationPage({ accomodation }: AccommodationPageProps) {
       <HeroAccomodation title={accomodation.name} />
       <AboutSection accomodation={accomodation} />
       <GallerySection />
-      <FeaturesSection />
+      <FeaturesSection accomodation={accomodation} />
       <LocationBoutique />
     </>
   );

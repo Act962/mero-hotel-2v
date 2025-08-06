@@ -50,7 +50,12 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/meroboutique/select/image-1.jpg"],
+    images: [
+      {
+        url: "/meroboutique/select/image-1.jpg",
+        alt: "",
+      },
+    ],
   },
   {
     name: "Superior",
@@ -101,7 +106,12 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/meroboutique/superior/image-1.jpg"],
+    images: [
+      {
+        url: "/meroboutique/superior/image-1.jpg",
+        alt: "",
+      },
+    ],
   },
   {
     name: "Premium",
@@ -132,7 +142,12 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/meroboutique/premium/image-1.jpg"],
+    images: [
+      {
+        url: "/meroboutique/premium/image-1.jpg",
+        alt: "Mero Boutique",
+      },
+    ],
   },
   {
     name: "Loft",
@@ -163,7 +178,12 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/meroboutique/loft/image-1.jpg"],
+    images: [
+      {
+        url: "/meroboutique/loft/image-1.jpg",
+        alt: "Teste",
+      },
+    ],
   },
   {
     name: "Gran Class",
@@ -194,7 +214,12 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/meroboutique/gran-class/image-1.jpg"],
+    images: [
+      {
+        url: "/meroboutique/gran-class/image-1.jpg",
+        alt: "Teste",
+      },
+    ],
   },
   {
     name: "President",
@@ -225,6 +250,11 @@ export const allAccomodations: Accomodation[] = [
         description: "...",
       },
     ],
-    images: ["/meroboutique/president/image-1.jpeg"],
+    images: [
+      {
+        url: "/meroboutique/president/image-1.jpeg",
+        alt: "Ops",
+      },
+    ],
   },
 ];

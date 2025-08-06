@@ -24,10 +24,6 @@ const LINKS = [
     title: "Experiências",
     path: "/meroboutique",
   },
-  {
-    title: "Experiências",
-    path: "/meroboutique",
-  },
 ];
 
 export function NavbarBoutique() {
