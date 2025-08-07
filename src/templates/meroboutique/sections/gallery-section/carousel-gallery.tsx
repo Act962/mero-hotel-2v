@@ -171,7 +171,7 @@ export const CarouselGallery: React.FC<EmblaCarouselProps> = ({
         onClick={onPrevButtonClick}
         disabled={prevBtnDisabled}
         aria-label="Previous slide"
-        className="absolute left-8 top-1/2 -translate-y-1/2 cursor-pointer rounded-full size-8 bg-white/50 hover:bg-white/80 flex items-center justify-center"
+        className="absolute left-6 top-1/2 -translate-1/2 cursor-pointer rounded-full size-8 bg-white/50 hover:bg-white/80 flex items-center justify-center"
       >
         <ChevronLeft className="size-4 text-gray-600" strokeWidth={4} />
       </button>
