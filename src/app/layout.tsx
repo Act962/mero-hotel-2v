@@ -37,9 +37,27 @@ const novera = localFont({
 
 export const metadata: Metadata = {
   title: "Mero Hotel",
-  description: "Aqui você encontra conforto de verdade",
+  description:
+    "Aqui você encontra conforto de verdade. Barra Grande pulsa em um ritmo único, e o Grupo Mero te convida a vivenciar cada batida.",
   icons: {
     icon: "/Logo.png",
+  },
+  openGraph: {
+    title: "Mero Hotel",
+    description:
+      "Aqui você encontra conforto de verdade. Barra Grande pulsa em um ritmo único, e o Grupo Mero te convida a vivenciar cada batida.",
+    url: "https://mero-hotel.vercel.app",
+    siteName: "Mero Hotel",
+    locale: "pt_BR",
+    type: "website",
+    images: [
+      {
+        url: "https://mero-hotel.vercel.app/mero-hotel-boutique.jpg",
+        width: 800,
+        height: 600,
+        alt: "Mero Hotel",
+      },
+    ],
   },
 };
 
