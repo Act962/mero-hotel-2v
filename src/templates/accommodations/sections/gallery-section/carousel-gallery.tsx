@@ -112,9 +112,13 @@ export const CarouselGallery: React.FC<EmblaCarouselProps> = ({
 
           const tweenValue = 1 - Math.abs(diffToTarget * tweenFactor.current);
           const scale = numberWithinRange(tweenValue, 0, 1).toString();
+          const opacity = numberWithinRange(tweenValue, 0.1, 1).toString();
           const tweenNode = tweenNodes.current[slideIndex];
           if (tweenNode) {
             tweenNode.style.transform = `scale(${scale})`;
+            tweenNode.style.opacity = opacity;
+            tweenNode.style.transition =
+              "opacity 0.3s ease-out, transform 0.3s ease-out";
           }
         });
       });
@@ -167,25 +171,23 @@ export const CarouselGallery: React.FC<EmblaCarouselProps> = ({
         </div>
       </div>
 
-      <Button
+      <button
         onClick={onPrevButtonClick}
         disabled={prevBtnDisabled}
         aria-label="Previous slide"
-        className="absolute left-8 top-1/2 -translate-1/2 cursor-pointer"
-        variant="outline"
+        className="absolute left-8 top-1/2 -translate-y-1/2 cursor-pointer rounded-full size-8 bg-white/50 hover:bg-white/80 flex items-center justify-center disabled:opacity-60"
       >
-        <ChevronLeft className="size-4" />
-      </Button>
+        <ChevronLeft className="size-4 text-gray-600" strokeWidth={4} />
+      </button>
 
-      <Button
+      <button
         onClick={onNextButtonClick}
         disabled={nextBtnDisabled}
         aria-label="Next slide"
-        className="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer"
-        variant="outline"
+        className="absolute top-1/2 right-3 -translate-y-1/2 cursor-pointer rounded-full size-8 bg-white/50 hover:bg-white/80 flex items-center justify-center disabled:opacity-60"
       >
-        <ChevronRight className="size-4" />
-      </Button>
+        <ChevronRight className="size-4 text-gray-600" strokeWidth={4} />
+      </button>
     </div>
   );
 };

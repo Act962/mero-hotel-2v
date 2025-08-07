@@ -36,6 +36,7 @@ const novera = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://mero-hotel.vercel.app"),
   title: "Mero Hotel",
   description:
     "Aqui você encontra conforto de verdade. Barra Grande pulsa em um ritmo único, e o Grupo Mero te convida a vivenciar cada batida.",
