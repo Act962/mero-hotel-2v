@@ -36,7 +36,7 @@ const accommodations = [
     ],
   },
   {
-    title: "Espaço Fitness",
+    title: "Experiência",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
     link: "/meroboutique/espaco-fitness",
@@ -49,57 +49,6 @@ const accommodations = [
       {
         url: "/image-5.jpg",
         alt: "Sala de estar espaçosa com sofá e TV",
-      },
-    ],
-  },
-  {
-    title: "Spa Mero",
-    description:
-      "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/meroboutique/spa-mero",
-    imagesOnLeft: true,
-    images: [
-      {
-        url: "/image-5.jpg",
-        alt: "Quarto com cama de casal e escrivaninha",
-      },
-      {
-        url: "/image-5.jpg",
-        alt: "Banheiro moderno com chuveiro quente",
-      },
-    ],
-  },
-  {
-    title: "M Bar",
-    description:
-      "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/meroboutique/m-bar",
-    imagesOnLeft: false,
-    images: [
-      {
-        url: "/image-5.jpg",
-        alt: "Banheira de hidromassagem com velas",
-      },
-      {
-        url: "/image-5.jpg",
-        alt: "Varanda com espreguiçadeira e vista panorâmica",
-      },
-    ],
-  },
-  {
-    title: "Café da Manhã",
-    description:
-      "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/meroboutique/cafe-da-manha",
-    imagesOnLeft: true,
-    images: [
-      {
-        url: "/image-5.jpg",
-        alt: "Banheira de hidromassagem com velas",
-      },
-      {
-        url: "/image-5.jpg",
-        alt: "Varanda com espreguiçadeira e vista panorâmica",
       },
     ],
   },

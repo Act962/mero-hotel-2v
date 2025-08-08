@@ -61,7 +61,7 @@ export function SelectLanguage() {
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
-      <PopoverTrigger className="flex gap-2 items-center">
+      <PopoverTrigger className="flex gap-2 items-center cursor-pointer">
         <Image
           src={lang.image.src}
           alt={lang.image.alt}
