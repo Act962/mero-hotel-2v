@@ -8,7 +8,7 @@ export function WelcomeSection() {
 
         <div className="flex flex-col gap-4">
           <p className="text-xs sm:text-sm font-light max-w-2xl mx-auto text-justify">
-            Barra Grande pulsa em um ritmo único, e o Grupo Mero te convida a
+            Barra Grande-PI pulsa em um ritmo único, e o Grupo Mero te convida a
             vivenciar cada batida. Sua jornada começa no Mero Boutique Hotel, um
             refúgio branco de inspiração grega onde o Wellness é a alma. Sinta a
             água morna da sua piscina ou jacuzzi privativa, o toque suave do
@@ -23,7 +23,7 @@ export function WelcomeSection() {
             da maresia, os sabores dos drinks autorais e de um cardápio
             elogiado. A melodia ambiente é o som das ondas, e o pôr do sol pinta
             o céu em cores vibrantes. É a celebração leve da vida, com a energia
-            de Barra Grande pulsando até as 19h.
+            de Barra Grande-PI pulsando até as 19h.
           </p>
 
           <p className="text-xs sm:text-sm font-light max-w-2xl mx-auto text-justify">
@@ -35,7 +35,7 @@ export function WelcomeSection() {
           </p>
 
           <p className="text-xs sm:text-sm font-light max-w-2xl mx-auto text-justify">
-            No Grupo Mero, em cada canto de Barra Grande, nós o convidamos a
+            No Grupo Mero, em cada canto de Barra Grande-PI, nós o convidamos a
             sentir, saborear e viver a plenitude, em uma experiência que se
             desdobra em wellness, sabor e aventura.
           </p>

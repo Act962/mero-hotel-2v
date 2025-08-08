@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { Logo } from "../logo";
 import { Separator } from "../ui/separator";
 import Link from "next/link";
+import { SelectLanguage } from "../select-lang/select-lang";
 
 const LINKS = [
   {
@@ -67,8 +68,8 @@ export function Navbar() {
     >
       <div className="w-full max-w-6xl mx-auto">
         {/* Top Navbar */}
-        <div className="flex items-center justify-between">
-          <div className="size-4">
+        <div className="grid grid-cols-3 items-center w-full">
+          <div className="justify-self-start">
             {/* Mobile */}
             <Menu
               className="size-4 md:hidden cursor-pointer"
@@ -83,15 +84,11 @@ export function Navbar() {
               />
             )}
           </div>
-          <Logo />
-          <div className="flex items-center gap-1 group">
-            <span className="group-hover:underline underline-offset-3 text-sm font-light">
-              PT
-            </span>
-            |
-            <span className="group-hover:underline underline-offset-3 text-sm font-light">
-              EN
-            </span>
+          <div className="justify-self-center">
+            <Logo />
+          </div>
+          <div className="justify-self-end">
+            <SelectLanguage />
           </div>
         </div>
         {/* Bottom Navbar */}
@@ -102,6 +99,7 @@ export function Navbar() {
             <div className="flex items-center justify-around mt-4">
               {LINKS.map((link, index) => (
                 <Link
+                  prefetch
                   key={`${link.path}-${index}`}
                   href={link.path}
                   className="uppercase text-sm font-light hover:underline underline-offset-3"
@@ -131,6 +129,7 @@ export function Navbar() {
         <div className="flex flex-col gap-2 mt-4">
           {LINKS.map((link, index) => (
             <Link
+              prefetch
               key={`${link.path}-${index}`}
               href={link.path}
               onClick={() => setOpenMenu(false)}
