@@ -9,7 +9,7 @@ const accommodations = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/image-5.jpg",
+        url: "/meroboutique/select/image-1.jpg",
         alt: "Vista do mar da varanda da suíte",
       },
       {
@@ -26,7 +26,7 @@ const accommodations = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/image-5.jpg",
+        url: "/meroboutique/gastronomia.jpg",
         alt: "Chalé de madeira com lareira acesa",
       },
       {
@@ -43,7 +43,7 @@ const accommodations = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/image-5.jpg",
+        url: "/meroboutique/experiences.jpg",
         alt: "Quarto com duas camas de solteiro",
       },
       {
