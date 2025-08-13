@@ -27,7 +27,7 @@ const LINKS = [
   },
   {
     title: "Experiências",
-    path: "/",
+    path: "/experiencias",
   },
 ];
 
@@ -85,7 +85,7 @@ export function Navbar() {
             )}
           </div>
           <div className="justify-self-center">
-            <Logo />
+            <Logo isChange={isScrolled} />
           </div>
           <div className="justify-self-end">
             <SelectLanguage />

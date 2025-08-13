@@ -3,7 +3,7 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { Logo } from "../logo";
+import { LogoBoutique } from "../logo";
 import { Separator } from "../ui/separator";
 import Link from "next/link";
 import { SelectLanguage } from "../select-lang/select-lang";
@@ -81,7 +81,7 @@ export function NavbarBoutique() {
             )}
           </div>
           <div className="justify-self-center">
-            <Logo />
+            <LogoBoutique isChange={isScrolled} />
           </div>
           <div className="justify-self-end">
             <SelectLanguage />
@@ -95,6 +95,7 @@ export function NavbarBoutique() {
             <div className="flex items-center justify-around mt-4">
               {LINKS.map((link, index) => (
                 <Link
+                  prefetch
                   key={`${link.path}-${index}`}
                   href={link.path}
                   className="uppercase text-sm font-light hover:underline underline-offset-3"
@@ -124,6 +125,7 @@ export function NavbarBoutique() {
         <div className="flex flex-col gap-2 mt-4">
           {LINKS.map((link, index) => (
             <Link
+              prefetch
               key={`${link.path}-${index}`}
               href={link.path}
               onClick={() => setOpenMenu(false)}

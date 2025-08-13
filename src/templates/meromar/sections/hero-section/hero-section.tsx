@@ -8,7 +8,7 @@ export function HeroSection() {
         autoPlay
         muted
         loop
-        className="h-full w-full object-cover"
+        className="h-full w-full object-cover brightness-80"
       ></video>
 
       <div>

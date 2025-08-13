@@ -34,14 +34,11 @@ export function RoomCard({ title, description, link, images }: RoomCardProps) {
           <p className="text-sm font-light">{description}</p>
         </div>
 
-        <div className="flex flex-col gap-3 items-start sm:flex-row sm:items-center justify-between w-full">
+        {/* <div className="flex flex-col gap-3 items-start sm:flex-row sm:items-center justify-between w-full">
           <Button variant="ligth" className="uppercase" asChild>
             <Link href={link}>Reserve agora</Link>
           </Button>
-          <span className="uppercase tracking-[3px] hover:underline underline-offset-3 cursor-pointer text-sm md:text-md">
-            Saiba mais
-          </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

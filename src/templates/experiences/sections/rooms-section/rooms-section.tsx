@@ -92,44 +92,6 @@ export function RoomsSection() {
   return (
     <section className="min-h-screen h-auto py-20 md:py-36 px-4">
       <div className="w-full max-w-6xl mx-auto flex flex-col items-center gap-24">
-        {/* Card */}
-        {/* <div className="p-8 sm:p-16 w-full bg-gray-300 space-y-10">
-          <div className="relative w-full h-72 md:h-96">
-            <Image
-              src="/image-5.jpg"
-              alt="Quadro"
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          <div className="flex flex-col w-full items-start gap-10">
-            <div className="space-y-6">
-              <h3 className="uppercase font-medium text-2xl tracking-[4px]">
-                Amalfi
-              </h3>
-              <p className="text-sm font-light">
-                Localizados no térreo e no 1º piso, área total de 23 m²,
-                distribuídos entre varanda privativa, quarto e banheiro.
-                Acomodam até 02 pessoas em cama de casal (King Size). Possui ar
-                condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi,
-                mesa de trabalho, frigobar, cofre eletrônico, e apoio de
-                cabeceira. Espelho de corpo inteiro, armário com cabides e
-                portas, ferro e mesa de passar roupa, secador de cabelo e
-                blackout nas cortinas.
-              </p>
-            </div>
-
-            <div className="flex items-center justify-between w-full">
-              <Button variant="secondary" className="uppercase" asChild>
-                <Link href="/">Reserve agora</Link>
-              </Button>
-              <span className="uppercase tracking-[3px] hover:underline underline-offset-3 cursor-pointer text-sm md:text-md">
-                Saiba mais
-              </span>
-            </div>
-          </div>
-        </div> */}
         {rooms.map((room, index) => {
           return (
             <RoomCard
