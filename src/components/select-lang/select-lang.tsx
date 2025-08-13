@@ -68,7 +68,7 @@ export function SelectLanguage() {
           width={20}
           height={20}
         />{" "}
-        {lang.label}
+        <span className="hidden sm:block"> {lang.label} </span>
         <ChevronDownIcon className="size-4" />
       </PopoverTrigger>
       <PopoverContent className="w-[140px] p-1">
