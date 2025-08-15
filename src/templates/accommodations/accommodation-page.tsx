@@ -14,7 +14,10 @@ type AccommodationPageProps = {
 export function AccommodationPage({ accomodation }: AccommodationPageProps) {
   return (
     <>
-      <HeroAccomodation title={accomodation.name} />
+      <HeroAccomodation
+        title={accomodation.name}
+        images={accomodation.images}
+      />
       <AboutSection accomodation={accomodation} />
       <GallerySection />
       <FeaturesSection accomodation={accomodation} />

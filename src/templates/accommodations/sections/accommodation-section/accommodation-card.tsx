@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { CarouselImages } from "./carousel-imgens";
+import { CarouselImages } from "./carousel-images";
 
 interface Images {
   url: string;

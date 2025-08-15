@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { allAccomodations } from "@/lib/accomadations-boutique";
+import { allAccomodations } from "@/lib/info";
 import { Accomodation } from "@/types/accomodation";
 import { EmblaCarouselType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
@@ -71,7 +71,7 @@ export function Carousel({ accomodation }: Props) {
         </div>
       </div>
 
-      <div className="flex items-center gap-2 mt-8">
+      <div className="flex items-center justify-end gap-2 mt-8">
         <Button onClick={onPrevButtonClick} disabled={prevBtnDisabled}>
           <ArrowLeft />
         </Button>

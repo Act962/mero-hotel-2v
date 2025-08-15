@@ -1,4 +1,4 @@
-import { allAccomodations } from "@/lib/accomadations-boutique";
+import { allAccomodations } from "@/lib/info";
 import { AccommodationPage } from "@/templates/accommodations/accommodation-page";
 import { Metadata } from "next";
 

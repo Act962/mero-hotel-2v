@@ -53,7 +53,19 @@ export const allAccomodations: Accomodation[] = [
     images: [
       {
         url: "/meroboutique/select/image-1.jpg",
-        alt: "",
+        alt: "Vista do mar da varanda da suíte",
+      },
+      {
+        url: "/meroboutique/select/image-2.jpg",
+        alt: "Cama king size com decoração aconchegante",
+      },
+      {
+        url: "/meroboutique/select/image-3.jpg",
+        alt: "Vista do mar da varanda da suíte",
+      },
+      {
+        url: "/meroboutique/select/image-4.jpg",
+        alt: "Vista do mar da varanda da suíte",
       },
     ],
   },
@@ -109,7 +121,19 @@ export const allAccomodations: Accomodation[] = [
     images: [
       {
         url: "/meroboutique/superior/image-1.jpg",
-        alt: "",
+        alt: "Chalé de madeira com lareira acesa",
+      },
+      {
+        url: "/meroboutique/superior/image-2.jpg",
+        alt: "Chalé de madeira com lareira acesa",
+      },
+      {
+        url: "/meroboutique/superior/image-3.jpg",
+        alt: "Chalé de madeira com lareira acesa",
+      },
+      {
+        url: "/meroboutique/superior/image-4.jpg",
+        alt: "Chalé de madeira com lareira acesa",
       },
     ],
   },
@@ -145,7 +169,19 @@ export const allAccomodations: Accomodation[] = [
     images: [
       {
         url: "/meroboutique/premium/image-1.jpg",
-        alt: "Mero Boutique",
+        alt: "Quarto com duas camas de solteiro",
+      },
+      {
+        url: "/meroboutique/premium/image-2.jpg",
+        alt: "Quarto com duas camas de solteiro",
+      },
+      {
+        url: "/meroboutique/premium/image-3.jpg",
+        alt: "Quarto com duas camas de solteiro",
+      },
+      {
+        url: "/meroboutique/premium/image-4.jpg",
+        alt: "Quarto com duas camas de solteiro",
       },
     ],
   },
@@ -181,7 +217,19 @@ export const allAccomodations: Accomodation[] = [
     images: [
       {
         url: "/meroboutique/loft/image-1.jpg",
-        alt: "Teste",
+        alt: "Quarto com cama de casal e escrivaninha",
+      },
+      {
+        url: "/meroboutique/loft/image-2.jpg",
+        alt: "Quarto com cama de casal e escrivaninha",
+      },
+      {
+        url: "/meroboutique/loft/image-3.jpg",
+        alt: "Quarto com cama de casal e escrivaninha",
+      },
+      {
+        url: "/meroboutique/loft/image-4.jpg",
+        alt: "Quarto com cama de casal e escrivaninha",
       },
     ],
   },
@@ -217,7 +265,19 @@ export const allAccomodations: Accomodation[] = [
     images: [
       {
         url: "/meroboutique/gran-class/image-1.jpg",
-        alt: "Teste",
+        alt: "Banheira de hidromassagem com velas",
+      },
+      {
+        url: "/meroboutique/gran-class/image-2.jpg",
+        alt: "Banheira de hidromassagem com velas",
+      },
+      {
+        url: "/meroboutique/gran-class/image-3.jpg",
+        alt: "Banheira de hidromassagem com velas",
+      },
+      {
+        url: "/meroboutique/gran-class/image-4.jpg",
+        alt: "Banheira de hidromassagem com velas",
       },
     ],
   },
@@ -253,7 +313,19 @@ export const allAccomodations: Accomodation[] = [
     images: [
       {
         url: "/meroboutique/president/image-1.jpeg",
-        alt: "Ops",
+        alt: "Banheira de hidromassagem com velas",
+      },
+      {
+        url: "/meroboutique/president/image-2.jpeg",
+        alt: "Banheira de hidromassagem com velas",
+      },
+      {
+        url: "/meroboutique/president/image-3.jpeg",
+        alt: "Banheira de hidromassagem com velas",
+      },
+      {
+        url: "/meroboutique/president/image-4.jpeg",
+        alt: "Banheira de hidromassagem com velas",
       },
     ],
   },
