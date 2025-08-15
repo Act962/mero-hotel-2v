@@ -14,7 +14,7 @@ interface HeroSectionsProps {
 
 export function HeroAccomodation({ title, images }: HeroSectionsProps) {
   return (
-    <div className="relative h-[80vh] md:h-screen w-full bg-gray-900">
+    <div className="relative h-[70vh] md:h-screen w-full bg-gray-900">
       <HeroCarousel images={images} />
       <div>
         <div className="absolute z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
