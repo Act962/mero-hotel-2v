@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const experiences = [
   {
-    title: "Kit Surf",
+    title: "Kite Surf",
     description:
       "Sinta a força do vento e a liberdade do kitesurf em Barra Grande, um dos melhores destinos do mundo para o esporte. Ventos constantes e mar calmo formam o cenário perfeito para iniciantes e experientes. Desfrute de aulas ou sessões guiadas com instrutores experientes. Termine o dia com um pôr do sol inesquecível, celebrando a natureza.",
     imageUrl: "/experiences/kite-surf.jpg",
