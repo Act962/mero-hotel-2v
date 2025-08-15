@@ -26,7 +26,7 @@ export function HeroCarousel({ images }: Props) {
   return (
     <div className="size-full relative">
       <div className="overflow-hidden size-full" ref={emblaRef}>
-        <div className="flex size-full touch-none touch-pan-x">
+        <div className="flex size-full touch-pan-x touch-pinch-zoom">
           {images.map((image, index) => (
             <div className="relative size-full shrink-0" key={index}>
               <Image
@@ -50,7 +50,7 @@ export function HeroCarousel({ images }: Props) {
                 alt={`Dot-${index}`}
                 width={18}
                 height={18}
-                className="fill-white"
+                className="fill-white cursor-pointer"
               />
             ) : (
               <Image
@@ -58,7 +58,7 @@ export function HeroCarousel({ images }: Props) {
                 alt={`Dot-${index}`}
                 width={18}
                 height={18}
-                className="fill-white"
+                className="fill-white cursor-pointer transition-colors opacity-70 hover:opacity-100"
               />
             )}
           </button>

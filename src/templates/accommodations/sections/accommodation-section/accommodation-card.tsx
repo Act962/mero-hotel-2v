@@ -46,6 +46,7 @@ export function AccommodationCard({
             Reserve agora
           </Button>
           <Link
+            prefetch
             href={link}
             className="uppercase tracking-[3px] hover:underline underline-offset-3 cursor-pointer text-sm md:text-md"
           >

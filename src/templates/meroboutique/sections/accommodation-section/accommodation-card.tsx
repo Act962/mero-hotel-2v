@@ -35,7 +35,7 @@ export function AccommodationCard({
         alt={images[0].alt}
         width={400}
         height={400}
-        className="object-cover h-64 md:h-96 w-full md:w-1/3"
+        className="object-cover h-64 w-full md:h-96"
       />
 
       <div className="flex flex-col w-full items-start gap-10">
@@ -45,7 +45,9 @@ export function AccommodationCard({
           </h3>
           <p className="text-md font-light">{description}</p>
           <Button variant="secondary">
-            <Link href={link}>Visitar</Link>
+            <Link prefetch href={link}>
+              Visitar
+            </Link>
           </Button>
         </div>
       </div>
