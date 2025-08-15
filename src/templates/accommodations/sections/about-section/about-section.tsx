@@ -13,7 +13,7 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
   }
 
   return (
-    <section className="bg-background min-h-screen flex justify-center items-center px-8 py-32">
+    <section className="bg-background min-h-screen flex justify-center items-center px-8  py-16 md:py-32">
       <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-32">
         {/* Sobre */}
         <div>
