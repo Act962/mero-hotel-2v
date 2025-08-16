@@ -5,8 +5,8 @@ import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Logo } from "../logo";
 import { Separator } from "../ui/separator";
-import Link from "next/link";
 import { SelectLanguage } from "../select-lang/select-lang";
+import { Link } from "@/i18n/navigation";
 
 const LINKS = [
   {

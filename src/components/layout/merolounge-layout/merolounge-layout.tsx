@@ -1,4 +1,5 @@
 import { Navbar } from "@/components/navbar";
+import { NextIntlClientProvider } from "next-intl";
 
 type MeroBoutiqueLayoutProps = {
   children: React.ReactNode;
@@ -7,7 +8,9 @@ type MeroBoutiqueLayoutProps = {
 export function MeroLoungeLayout({ children }: MeroBoutiqueLayoutProps) {
   return (
     <div className="relative flex flex-col min-h-screen bg-background">
-      <Navbar />
+      <NextIntlClientProvider>
+        <Navbar />
+      </NextIntlClientProvider>
       <main>{children}</main>
     </div>
   );

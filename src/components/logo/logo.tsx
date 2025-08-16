@@ -14,6 +14,7 @@ export function Logo({ isChange }: Props) {
         width={60}
         height={60}
         className="object-cover"
+        style={{ height: "auto" }}
       />
     </Link>
   );

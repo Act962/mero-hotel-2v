@@ -1,0 +1,12 @@
+{
+  "Hero": {
+    "title": "TESTE"
+  },
+  "SelectLang": {
+    "pt": "Portoghese",
+    "en": "Inglese",
+    "fr": "Francese",
+    "es": "Spagnolo",
+    "it": "Italiano"
+  }
+}
