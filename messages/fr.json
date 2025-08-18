@@ -1,6 +1,21 @@
 {
-  "Hero": {
-    "title": "TESTE"
+  "HeroPage": {
+    "title": "Groupe Mero",
+    "WelcomeSection": {
+      "title": "Bienvenue",
+      "paragraph-1": "Barra Grande-PI vibre à un rythme unique, et le Groupe Mero vous invite à vivre chaque battement. Votre voyage commence au Mero Boutique Hotel, un refuge blanc d’inspiration grecque où le bien-être est l’âme. Sentez l’eau tiède de votre piscine ou jacuzzi privé, la douceur du SPA, la brise portant le parfum des fleurs tropicales. Le Tea Time exclusif célèbre l’art de ralentir, tandis que le soleil peint le paysage réservé en tons pastel. Ici, la paix se ressent.",
+      "paragraph-2": "L’après-midi, vos pas vous mènent au Mero Lounge, un paradis les pieds dans le sable où la mer embrasse la côte. Sentez le sable chaud sous vos pieds, l’odeur marine, les saveurs des cocktails signature et d’un menu apprécié. La mélodie ambiante est le son des vagues, et le coucher de soleil peint le ciel de couleurs vibrantes. C’est une célébration légère de la vie, avec l’énergie de Barra Grande-PI vibrant jusqu’à 19h.",
+      "paragraph-3": "Bientôt, une nouvelle mélodie résonnera avec le Mero Mar Hotel. Plus jeune, avec technologie et design moderne, ce refuge en bord de mer sera une invitation à la vitalité. Imaginez-vous réveillé par le son des vagues, ressentant la brise salée et explorant les beautés de la plage avec une accessibilité totale.",
+      "paragraph-4": "Au sein du Groupe Mero, dans chaque coin de Barra Grande-PI, nous vous invitons à ressentir, savourer et vivre pleinement, dans une expérience qui se déploie en bien-être, saveur et aventure."
+    }
+  },
+  "LinksNavbarHero": {
+    "title": "Groupe Mero",
+    "group-mero": "Groupe Mero",
+    "mero-boutique": "Mero Boutique",
+    "mero-longe": "Mero Lounge",
+    "mero-mar": "Mero Mar",
+    "experiences": "Expériences"
   },
   "SelectLang": {
     "pt": "Portugais",

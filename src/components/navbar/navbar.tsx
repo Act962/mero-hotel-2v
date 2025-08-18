@@ -7,31 +7,38 @@ import { Logo } from "../logo";
 import { Separator } from "../ui/separator";
 import { SelectLanguage } from "../select-lang/select-lang";
 import { Link } from "@/i18n/navigation";
+import { useTranslations } from "next-intl";
 
 const LINKS = [
   {
     title: "Grupo Mero",
     path: "/",
+    flag: "group-mero",
   },
   {
     title: "Mero Boutique",
     path: "/meroboutique",
+    flag: "mero-boutique",
   },
   {
     title: "Mero Lounge",
     path: "/merolounge",
+    flag: "mero-longe",
   },
   {
     title: "Mero Mar",
     path: "/meromar",
+    flag: "mero-mar",
   },
   {
     title: "Experiências",
     path: "/experiencias",
+    flag: "experiences",
   },
 ];
 
 export function Navbar() {
+  const t = useTranslations("LinksNavbarHero");
   const [isScrolled, setIsScrolled] = useState(false);
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -104,7 +111,7 @@ export function Navbar() {
                   href={link.path}
                   className="uppercase text-sm font-light hover:underline underline-offset-3"
                 >
-                  {link.title}
+                  {t(`${link.flag}`)}
                 </Link>
               ))}
             </div>
@@ -119,7 +126,7 @@ export function Navbar() {
         }`}
       >
         <div className="flex items-center justify-between">
-          <h3>Mero Hotel</h3>
+          <h3> {t("title")} </h3>
           <X
             className="size-4 cursor-pointer"
             onClick={() => setOpenMenu(false)}
@@ -135,7 +142,7 @@ export function Navbar() {
               onClick={() => setOpenMenu(false)}
               className="uppercase text-sm font-light hover:underline underline-offset-3"
             >
-              {link.title}
+              {t(`${link.flag}`)}
             </Link>
           ))}
         </div>
