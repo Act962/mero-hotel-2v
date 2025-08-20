@@ -7,6 +7,48 @@
       "paragraph-2": "Nel pomeriggio, i tuoi passi ti portano al Mero Lounge, un paradiso fronte mare dove il mare bacia la costa. Senti la sabbia calda sotto i piedi, l’odore della brezza marina, i sapori dei cocktail d’autore e di un menù apprezzato. La melodia di fondo è il suono delle onde e il tramonto dipinge il cielo di colori vibranti. È la celebrazione leggera della vita, con l’energia di Barra Grande-PI che pulsa fino alle 19.",
       "paragraph-3": "Presto, una nuova melodia riecheggerà con il Mero Mar Hotel. Più giovane, con tecnologia e design moderno, questo rifugio fronte mare sarà un invito alla vitalità. Immagina di svegliarti con il suono delle onde, sentendo la brezza salata ed esplorando le bellezze della spiaggia con piena accessibilità.",
       "paragraph-4": "Nel Gruppo Mero, in ogni angolo di Barra Grande-PI, ti invitiamo a sentire, gustare e vivere appieno, in un’esperienza che si sviluppa in benessere, sapore e avventura."
+    },
+    "GroupsSection": {
+      "title": "Gruppo Mero",
+      "mero-boutique": {
+        "title": "Mero Boutique",
+        "description": "Al Mero Hotel Boutique, Barra Grande-PI, ogni alba è memorabile. Un rifugio mediterraneo. Sistemazioni con opzioni piscina/jacuzzi private. Tariffe giornaliere con colazione e tè pomeridiano. Vivi esperienze nella Spa, Spazio Fitness, Sauna umida, Caffè sulla Veranda e trasferimento al Mero Lounge.",
+        "link": "Scopri di più"
+      },
+      "mero-longe": {
+        "title": "Mero Lounge",
+        "description": "Al Mero Mar Lounge, a Barra Grande-PI, la gastronomia incontra il fascino del mare. Piedi nella sabbia, cocktail d'autore e piatti poetici creano immersione sensoriale profonda. Perfetto per pranzi e tramonti, è l'arte di vivere con leggerezza e sapore.",
+        "link": "Scopri di più"
+      },
+      "mero-mar": {
+        "title": "Mero Mar",
+        "description": "Il Mero Mar Hotel sarà il nuovo orizzonte del Gruppo Mero. Con architettura contemporanea e vista sul mare, ridefinirà comfort ed esclusività. Preparati per esperienze indimenticabili, dove l'ospitalità Mero si eleverà a un livello straordinario.",
+        "link": "Scopri di più"
+      }
+    },
+    "Experiences": {
+      "title": "Esperienze",
+      "link": "Altre Esperienze",
+      "kite-surf": {
+        "title": "Kite Surf",
+        "description": "Senti la forza del vento e la libertà del kitesurf a Barra Grande, una delle migliori destinazioni al mondo per questo sport. Venti costanti e mare calmo creano lo scenario perfetto per principianti ed esperti. Goditi lezioni o sessioni guidate con istruttori esperti. Termina la giornata con un tramonto indimenticabile, celebrando la natura.",
+        "link": "Scopri di più"
+      },
+      "rovada-dos-guaras": {
+        "title": "Volo degli Ibis Scarlatti",
+        "description": "Il Volo degli Ibis Scarlatti è uno spettacolo naturale nel Delta del Parnaíba, quando centinaia di uccelli dal piumaggio rosso ritornano ai nidi al tramonto. Il fenomeno dipinge il cielo con toni vibranti, creando uno scenario unico e indimenticabile. Il tour viene fatto in motoscafo, passando per isole, dune e mangrovie prima del grande momento.",
+        "link": "Scopri di più"
+      },
+      "cajueiro-rei": {
+        "title": "Anacardio Re",
+        "description": "Conoscere l'Anacardio-Re, sulla costa del Piauí, è vivere la grandiosità della natura da vicino. Con 8.880 m² di chioma, incanta per la sua imponenza e le storie che porta. Passeggiare sotto i suoi rami centenari è sentire la freschezza e la vita che pulsa in ogni foglia. Uno scenario unico, pronto a conquistare il titolo del più grande anacardio del mondo.",
+        "link": "Scopri di più"
+      },
+      "yahacqua-park": {
+        "title": "Yahacqua Park",
+        "description": "Il Yah Acqua Park è il più grande parco acquatico del Piauí, situato a Luís Correia, nel cuore della costa. Con infrastrutture moderne e sicure, offre divertimento per tutte le età. Attrazioni emozionanti e spazi per rilassarsi, tutto in un posto. Perfetto per creare ricordi indimenticabili con famiglia e amici.",
+        "link": "Scopri di più"
+      }
     }
   },
   "LinksNavbarHero": {

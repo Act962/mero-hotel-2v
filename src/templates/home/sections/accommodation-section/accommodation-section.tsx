@@ -7,7 +7,7 @@ export function AccommodationSection() {
       <div>
         <Link href="/">
           <h2 className="text-xl sm:text-3xl font-semibold tracking-[0.6rem] sm:tracking-[0.8rem] uppercase">
-            Acomodações
+            Tábua de Marés
           </h2>
         </Link>
         <Separator className="!h-px rounded-full bg-white" />

@@ -8,6 +8,7 @@ interface CardExperiencesProps {
   imageUrl: string;
   alt: string;
   link: string;
+  linkLegend: string;
 }
 
 export default function CardExperiences({
@@ -16,6 +17,7 @@ export default function CardExperiences({
   imageUrl,
   alt,
   link,
+  linkLegend,
 }: CardExperiencesProps) {
   return (
     <div>
@@ -37,7 +39,7 @@ export default function CardExperiences({
           href={link}
           className="uppercase underline underline-offset-3 hover:text-gray-500"
         >
-          Saiba mais
+          {linkLegend}
         </Link>
       </div>
     </div>

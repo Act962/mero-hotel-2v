@@ -7,6 +7,48 @@
       "paragraph-2": "Por la tarde, tus pasos te llevan al Mero Lounge, un paraíso frente al mar donde el océano besa la costa. Siente la arena tibia bajo tus pies, el olor a brisa marina, los sabores de los cócteles de autor y de un menú elogiado. La melodía ambiental es el sonido de las olas, y el atardecer pinta el cielo con colores vibrantes. Es la celebración ligera de la vida, con la energía de Barra Grande-PI latiendo hasta las 19h.",
       "paragraph-3": "Pronto, una nueva melodía resonará con el Mero Mar Hotel. Más joven, con tecnología y diseño moderno, este refugio frente al mar será una invitación a la vitalidad. Imagina despertar con el sonido de las olas, sintiendo la brisa salada y explorando las bellezas de la playa con total accesibilidad.",
       "paragraph-4": "En el Grupo Mero, en cada rincón de Barra Grande-PI, te invitamos a sentir, saborear y vivir la plenitud, en una experiencia que se despliega en bienestar, sabor y aventura."
+    },
+    "GroupsSection": {
+      "title": "Grupo Mero",
+      "mero-boutique": {
+        "title": "Mero Boutique",
+        "description": "En el Mero Hotel Boutique, Barra Grande-PI, cada amanecer es memorable. Un refugio mediterráneo. Alojamientos con opciones de piscina/jacuzzi privados. Tarifas diarias con desayuno y té de la tarde. Vive experiencias en el Spa, Espacio Fitness, Sauna húmedo, Café en la Terraza y traslado al Mero Lounge.",
+        "link": "Saber más"
+      },
+      "mero-longe": {
+        "title": "Mero Lounge",
+        "description": "En el Mero Mar Lounge, en Barra Grande-PI, la gastronomía encuentra el encanto junto al mar. Pies en la arena, cócteles de autor y platos poéticos crean inmersión sensorial profunda. Perfecto para almuerzos y atardeceres, es el arte de vivir con ligereza y sabor.",
+        "link": "Saber más"
+      },
+      "mero-mar": {
+        "title": "Mero Mar",
+        "description": "El Mero Mar Hotel será el nuevo horizonte del Grupo Mero. Con arquitectura contemporánea y vistas al mar, redefinirá comodidad y exclusividad. Prepárate para vivencias inolvidables, donde la hospitalidad Mero se elevará a un nivel extraordinario.",
+        "link": "Saber más"
+      }
+    },
+    "Experiences": {
+      "title": "Experiencias",
+      "link": "Otras Experiencias",
+      "kite-surf": {
+        "title": "Kite Surf",
+        "description": "Siente la fuerza del viento y la libertad del kitesurf en Barra Grande, uno de los mejores destinos del mundo para este deporte. Vientos constantes y mar calmo forman el escenario perfecto para principiantes y expertos. Disfruta de clases o sesiones guiadas con instructores experimentados. Termina el día con un atardecer inolvidable, celebrando la naturaleza.",
+        "link": "Saber más"
+      },
+      "rovada-dos-guaras": {
+        "title": "Vuelo de los Corocoros",
+        "description": "El Vuelo de los Corocoros es un espectáculo natural en el Delta del Parnaíba, cuando cientos de aves de plumaje rojo regresan a sus nidos al atardecer. El fenómeno pinta el cielo con tonos vibrantes, creando un escenario único e inolvidable. El paseo se hace en lancha, pasando por islas, dunas y manglares antes del gran momento.",
+        "link": "Saber más"
+      },
+      "cajueiro-rei": {
+        "title": "Cajueiro Rey",
+        "description": "Conocer el Cajueiro-Rey, en la costa de Piauí, es vivenciar la grandiosidad de la naturaleza de cerca. Con 8.880 m² de copa, encanta por su imponencia y las historias que lleva. Pasear bajo sus ramas centenarias es sentir la frescura y la vida pulsando en cada hoja. Un escenario único, a punto de conquistar el título del mayor cajueiro del mundo.",
+        "link": "Saber más"
+      },
+      "yahacqua-park": {
+        "title": "Yahacqua Park",
+        "description": "El Yah Acqua Park es el mayor parque acuático de Piauí, ubicado en Luís Correia, en el corazón del litoral. Con infraestructura moderna y segura, ofrece diversión para todas las edades. Atracciones emocionantes y espacios para relajarse, todo en un solo lugar. Perfecto para crear recuerdos inolvidables con familia y amigos.",
+        "link": "Saber más"
+      }
     }
   },
   "LinksNavbarHero": {

@@ -1,7 +1,12 @@
 import React from "react";
 import { CarouselGallery } from "./carousel-gallery";
+import { Accomodation } from "@/types/accomodation";
 
-export function GallerySection() {
+type Props = {
+  accomodation: Accomodation;
+};
+
+export function GallerySection({ accomodation }: Props) {
   return (
     <section className="relative min-h-screen px-4 py-8 flex flex-col items-center justify-center bg-gray-300">
       <div className="relative w-full max-w-6xl text-center mx-auto space-y-12 my-16">
@@ -9,7 +14,7 @@ export function GallerySection() {
           Galeria de Fotos
         </h2>
 
-        <CarouselGallery />
+        <CarouselGallery images={accomodation.images} />
       </div>
     </section>
   );

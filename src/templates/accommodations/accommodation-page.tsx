@@ -19,7 +19,7 @@ export function AccommodationPage({ accomodation }: AccommodationPageProps) {
         images={accomodation.images}
       />
       <AboutSection accomodation={accomodation} />
-      <GallerySection />
+      <GallerySection accomodation={accomodation} />
       <FeaturesSection accomodation={accomodation} />
       <LocationBoutique />
     </>

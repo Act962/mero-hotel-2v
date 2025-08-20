@@ -6,38 +6,6 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { EmblaCarouselType, EmblaEventType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 import ClassNames from "embla-carousel-class-names";
-import { Button } from "@/components/ui/button";
-
-const images = [
-  {
-    src: "/image-3.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-4.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-3.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-3.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-4.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-3.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-4.jpg",
-    alt: "Image do Mero",
-  },
-];
 
 const TWEEN_FACTOR_BASE = 0.2;
 
@@ -46,10 +14,15 @@ const numberWithinRange = (number: number, min: number, max: number): number =>
 
 interface EmblaCarouselProps {
   className?: string;
+  images: {
+    url: string;
+    alt: string;
+  }[];
 }
 
 export const CarouselGallery: React.FC<EmblaCarouselProps> = ({
   className = "",
+  images,
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
@@ -159,7 +132,7 @@ export const CarouselGallery: React.FC<EmblaCarouselProps> = ({
             <div className="flex-[0_0_70%] min-w-0 pl-4" key={`slide-${index}`}>
               <div className="embla__slide__image relative h-80 md:h-96 w-full">
                 <Image
-                  src={slide.src}
+                  src={slide.url}
                   alt={slide.alt}
                   fill
                   className="w-full h-full object-cover rounded-2xl shadow-lg"

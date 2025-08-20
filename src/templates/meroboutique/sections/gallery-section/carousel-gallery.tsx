@@ -8,31 +8,15 @@ import useEmblaCarousel from "embla-carousel-react";
 
 const images = [
   {
-    src: "/image-3.jpg",
+    src: "/meroboutique/select/image-1.jpg",
     alt: "Image do Mero",
   },
   {
-    src: "/image-4.jpg",
+    src: "/meroboutique/gastronomia.jpg",
     alt: "Image do Mero",
   },
   {
-    src: "/image-3.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-3.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-4.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-3.jpg",
-    alt: "Image do Mero",
-  },
-  {
-    src: "/image-4.jpg",
+    src: "/meroboutique/experiences.jpg",
     alt: "Image do Mero",
   },
 ];

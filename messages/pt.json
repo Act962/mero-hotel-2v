@@ -7,6 +7,48 @@
       "paragraph-2": "À tarde, seus passos o levam ao Mero Lounge, um paraíso pé na areia onde o mar beija a costa. Sinta a areia morna sob os pés, o cheiro da maresia, os sabores dos drinks autorais e de um cardápio elogiado. A melodia ambiente é o som das ondas, e o pôr do sol pinta o céu em cores vibrantes. É a celebração leve da vida, com a energia de Barra Grande-PI pulsando até as 19h.",
       "paragraph-3": "Em breve, uma nova melodia ecoará com o Mero Mar Hotel. Mais jovem, com tecnologia e design moderno, este refúgio pé na areia será um convite à vitalidade. Imagine acordar com o som das ondas, sentindo a brisa salgada, e explorar as belezas da praia com total acessibilidade.",
       "paragraph-4": "No Grupo Mero, em cada canto de Barra Grande-PI, nós o convidamos a sentir, saborear e viver a plenitude, em uma experiência que se desdobra em wellness, sabor e aventura."
+    },
+    "GroupsSection": {
+      "title": "Grupo Mero",
+      "mero-boutique": {
+        "title": "Mero Boutique",
+        "description": "No Mero Hotel Boutique, Barra Grande-PI, cada amanhecer é memorável. Um refúgio mediterrâneo. Acomodações com opções de piscina/jacuzzi privativas. Diárias com café da manhã e chá da tarde. Viva experiências no Spa, Espaço Fitness, Sauna úmida, Café na Varanda e no traslado para o Mero Lounge.",
+        "link": "Saiba mais"
+      },
+      "mero-longe": {
+        "title": "Mero Lounge",
+        "description": "No Mero Mar Lounge, em Barra Grande-PI, a gastronomia encontra o charme à beira-mar. Pés na areia, coquetéis autorais e pratos poéticos criam imersão sensorial profunda. Perfeito para almoços e pôr do sol, é a arte de viver com leveza e sabor.",
+        "link": "Saiba mais"
+      },
+      "mero-mar": {
+        "title": "Mero Mar",
+        "description": "O Mero Mar Hotel, será o novo horizonte do Grupo Mero. Com arquitetura contemporânea e vistas para o mar, ele redefinirá conforto e exclusividade. Prepare-se para vivências inesquecíveis, onde a hospitalidade Mero se elevará a um patamar extraordinário.",
+        "link": "Saiba mais"
+      }
+    },
+    "Experiences": {
+      "title": "Experiências",
+      "link": "Outras Experiências",
+      "kite-surf": {
+        "title": "Kite Surf",
+        "description": "Sinta a força do vento e a liberdade do kitesurf em Barra Grande, um dos melhores destinos do mundo para o esporte. Ventos constantes e mar calmo formam o cenário perfeito para iniciantes e experientes. Desfrute de aulas ou sessões guiadas com instrutores experientes. Termine o dia com um pôr do sol inesquecível, celebrando a natureza.",
+        "link": "Saiba mais"
+      },
+      "rovada-dos-guaras": {
+        "title": "Revoada dos Guarás",
+        "description": "A Revoada dos Guarás é um espetáculo natural no Delta do Parnaíba, quando centenas de aves de plumagem vermelha retornam aos ninhos ao entardecer. O fenômeno pinta o céu com tons vibrantes, criando um cenário único e inesquecível. O passeio é feito de lancha, passando por ilhas, dunas e manguezais antes do grande momento.",
+        "link": "Saiba mais"
+      },
+      "cajueiro-rei": {
+        "title": "Cajueiro Rei",
+        "description": "Conhecer o Cajueiro-Rei, no litoral do Piauí, é vivenciar a grandiosidade da natureza de perto. Com 8.880 m² de copa, ele encanta pela imponência e pelas histórias que carrega. Passear sob seus galhos centenários é sentir o frescor e a vida pulsando em cada folha. Um cenário único, prestes a conquistar o título de maior cajueiro do mundo.",
+        "link": "Saiba mais"
+      },
+      "yahacqua-park": {
+        "title": "Yahacqua Park",
+        "description": "O Yah Acqua Park é o maior parque aquático do Piauí, localizado em Luís Correia, no coração do litoral. Com estrutura moderna e segura, oferece diversão para todas as idades. São atrações emocionantes e espaços para relaxar, tudo em um só lugar. Perfeito para criar memórias inesquecíveis com família e amigos.",
+        "link": "Saiba mais"
+      }
     }
   },
   "LinksNavbarHero": {

@@ -7,6 +7,48 @@
       "paragraph-2": "In the afternoon, your steps take you to Mero Lounge, a beachfront paradise where the sea kisses the shore. Feel the warm sand under your feet, the salty sea breeze, the flavors of signature drinks and a praised menu. The ambient melody is the sound of the waves, and the sunset paints the sky in vibrant colors. It is a lighthearted celebration of life, with the energy of Barra Grande-PI pulsing until 7 p.m.",
       "paragraph-3": "Soon, a new melody will echo with Mero Mar Hotel. Younger, with technology and modern design, this beachfront retreat will be an invitation to vitality. Imagine waking up to the sound of the waves, feeling the salty breeze, and exploring the beauty of the beach with full accessibility.",
       "paragraph-4": "At Grupo Mero, in every corner of Barra Grande-PI, we invite you to feel, taste, and live to the fullest, in an experience that unfolds into wellness, flavor, and adventure."
+    },
+    "GroupsSection": {
+      "title": "Mero Group",
+      "mero-boutique": {
+        "title": "Mero Boutique",
+        "description": "At Mero Hotel Boutique, Barra Grande-PI, every sunrise is memorable. A Mediterranean refuge. Accommodations with private pool/jacuzzi options. Daily rates include breakfast and afternoon tea. Experience the Spa, Fitness Space, Steam Sauna, Veranda Café, and transfer to Mero Lounge.",
+        "link": "Learn more"
+      },
+      "mero-longe": {
+        "title": "Mero Lounge",
+        "description": "At Mero Mar Lounge, in Barra Grande-PI, gastronomy meets seaside charm. Feet in the sand, signature cocktails, and poetic dishes create deep sensory immersion. Perfect for lunches and sunsets, it's the art of living with lightness and flavor.",
+        "link": "Learn more"
+      },
+      "mero-mar": {
+        "title": "Mero Mar",
+        "description": "Mero Mar Hotel will be the new horizon of the Mero Group. With contemporary architecture and ocean views, it will redefine comfort and exclusivity. Prepare for unforgettable experiences, where Mero hospitality will rise to an extraordinary level.",
+        "link": "Learn more"
+      }
+    },
+    "Experiences": {
+      "title": "Experiences",
+      "link": "Other Experiences",
+      "kite-surf": {
+        "title": "Kite Surf",
+        "description": "Feel the power of the wind and the freedom of kitesurfing in Barra Grande, one of the world's best destinations for the sport. Constant winds and calm seas create the perfect setting for beginners and experts alike. Enjoy lessons or guided sessions with experienced instructors. End the day with an unforgettable sunset, celebrating nature.",
+        "link": "Learn more"
+      },
+      "rovada-dos-guaras": {
+        "title": "Scarlet Ibis Flight",
+        "description": "The Scarlet Ibis Flight is a natural spectacle in the Parnaíba Delta, when hundreds of red-feathered birds return to their nests at dusk. This phenomenon paints the sky with vibrant tones, creating a unique and unforgettable scene. The tour is done by speedboat, passing through islands, dunes, and mangroves before the grand moment.",
+        "link": "Learn more"
+      },
+      "cajueiro-rei": {
+        "title": "King Cashew Tree",
+        "description": "Visiting the King Cashew Tree, on the coast of Piauí, is experiencing nature's grandeur up close. With 8,880 m² of canopy, it enchants with its majesty and the stories it holds. Walking under its century-old branches is feeling the freshness and life pulsing in every leaf. A unique setting, about to claim the title of world's largest cashew tree.",
+        "link": "Learn more"
+      },
+      "yahacqua-park": {
+        "title": "Yahacqua Park",
+        "description": "Yah Acqua Park is the largest water park in Piauí, located in Luís Correia, in the heart of the coast. With modern and safe infrastructure, it offers fun for all ages. Exciting attractions and spaces to relax, all in one place. Perfect for creating unforgettable memories with family and friends.",
+        "link": "Learn more"
+      }
     }
   },
   "LinksNavbarHero": {

@@ -7,6 +7,48 @@
       "paragraph-2": "L’après-midi, vos pas vous mènent au Mero Lounge, un paradis les pieds dans le sable où la mer embrasse la côte. Sentez le sable chaud sous vos pieds, l’odeur marine, les saveurs des cocktails signature et d’un menu apprécié. La mélodie ambiante est le son des vagues, et le coucher de soleil peint le ciel de couleurs vibrantes. C’est une célébration légère de la vie, avec l’énergie de Barra Grande-PI vibrant jusqu’à 19h.",
       "paragraph-3": "Bientôt, une nouvelle mélodie résonnera avec le Mero Mar Hotel. Plus jeune, avec technologie et design moderne, ce refuge en bord de mer sera une invitation à la vitalité. Imaginez-vous réveillé par le son des vagues, ressentant la brise salée et explorant les beautés de la plage avec une accessibilité totale.",
       "paragraph-4": "Au sein du Groupe Mero, dans chaque coin de Barra Grande-PI, nous vous invitons à ressentir, savourer et vivre pleinement, dans une expérience qui se déploie en bien-être, saveur et aventure."
+    },
+    "GroupsSection": {
+      "title": "Groupe Mero",
+      "mero-boutique": {
+        "title": "Mero Boutique",
+        "description": "Au Mero Hotel Boutique, Barra Grande-PI, chaque lever de soleil est mémorable. Un refuge méditerranéen. Hébergements avec options piscine/jacuzzi privés. Tarifs journaliers avec petit-déjeuner et thé de l'après-midi. Vivez des expériences au Spa, Espace Fitness, Sauna humide, Café de la Véranda et transfert vers le Mero Lounge.",
+        "link": "En savoir plus"
+      },
+      "mero-longe": {
+        "title": "Mero Lounge",
+        "description": "Au Mero Mar Lounge, à Barra Grande-PI, la gastronomie rencontre le charme du bord de mer. Les pieds dans le sable, cocktails signature et plats poétiques créent une immersion sensorielle profonde. Parfait pour les déjeuners et couchers de soleil, c'est l'art de vivre avec légèreté et saveur.",
+        "link": "En savoir plus"
+      },
+      "mero-mar": {
+        "title": "Mero Mar",
+        "description": "Le Mero Mar Hotel sera le nouvel horizon du Groupe Mero. Avec une architecture contemporaine et des vues sur la mer, il redéfinira le confort et l'exclusivité. Préparez-vous à des expériences inoubliables, où l'hospitalité Mero s'élèvera à un niveau extraordinaire.",
+        "link": "En savoir plus"
+      }
+    },
+    "Experiences": {
+      "title": "Expériences",
+      "link": "Autres Expériences",
+      "kite-surf": {
+        "title": "Kite Surf",
+        "description": "Ressentez la force du vent et la liberté du kitesurf à Barra Grande, l'une des meilleures destinations au monde pour ce sport. Des vents constants et une mer calme créent le cadre parfait pour débutants et experts. Profitez de cours ou de sessions guidées avec des instructeurs expérimentés. Terminez la journée avec un coucher de soleil inoubliable, célébrant la nature.",
+        "link": "En savoir plus"
+      },
+      "rovada-dos-guaras": {
+        "title": "Vol des Ibis Rouges",
+        "description": "Le Vol des Ibis Rouges est un spectacle naturel dans le Delta du Parnaíba, quand des centaines d'oiseaux au plumage rouge retournent à leurs nids au crépuscule. Ce phénomène peint le ciel de tons vibrants, créant un paysage unique et inoubliable. L'excursion se fait en hors-bord, passant par des îles, dunes et mangroves avant le grand moment.",
+        "link": "En savoir plus"
+      },
+      "cajueiro-rei": {
+        "title": "Anacardier Roi",
+        "description": "Découvrir l'Anacardier-Roi, sur la côte du Piauí, c'est vivre la grandeur de la nature de près. Avec 8 880 m² de couronne, il enchante par sa majesté et les histoires qu'il porte. Se promener sous ses branches centenaires, c'est sentir la fraîcheur et la vie pulsant dans chaque feuille. Un paysage unique, sur le point de conquérir le titre du plus grand anacardier du monde.",
+        "link": "En savoir plus"
+      },
+      "yahacqua-park": {
+        "title": "Yahacqua Park",
+        "description": "Le Yah Acqua Park est le plus grand parc aquatique du Piauí, situé à Luís Correia, au cœur du littoral. Avec une infrastructure moderne et sûre, il offre du divertissement pour tous les âges. Des attractions passionnantes et des espaces pour se détendre, tout en un seul endroit. Parfait pour créer des souvenirs inoubliables en famille et entre amis.",
+        "link": "En savoir plus"
+      }
     }
   },
   "LinksNavbarHero": {

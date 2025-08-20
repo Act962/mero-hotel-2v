@@ -8,6 +8,7 @@ interface CardGroupProps {
   description: string;
   imageUrl: string;
   link: string;
+  linkLegend: string;
 }
 
 export function CardGroup({
@@ -15,14 +16,16 @@ export function CardGroup({
   description,
   imageUrl,
   link,
+  linkLegend,
 }: CardGroupProps) {
   return (
     <div className="text-start flex flex-col gap-4">
-      <h3 className=" text-lg text-center  md:text-xl font-normal tracking-[0.6rem]">
+      <h3 className=" text-lg text-center  md:text-xl font-normal tracking-[0.6rem] uppercase">
         {title}
       </h3>
 
       <Link
+        prefetch
         href={link}
         className="relative overflow-hidden group h-60 sm:h-72 md:h-96 w-full"
       >
@@ -39,10 +42,11 @@ export function CardGroup({
 
         <Separator />
         <Link
+          prefetch
           href={link}
           className="uppercase underline underline-offset-3 hover:text-gray-300"
         >
-          Saiba mais
+          {linkLegend}
         </Link>
       </div>
     </div>
