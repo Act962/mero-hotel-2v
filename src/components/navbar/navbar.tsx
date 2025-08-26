@@ -6,8 +6,9 @@ import { useEffect, useState } from "react";
 import { Logo } from "../logo";
 import { Separator } from "../ui/separator";
 import { SelectLanguage } from "../select-lang/select-lang";
-import { Link } from "@/i18n/navigation";
+
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 const LINKS = [
   {

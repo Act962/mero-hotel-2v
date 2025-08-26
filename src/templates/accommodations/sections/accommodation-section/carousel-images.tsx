@@ -43,7 +43,11 @@ export const CarouselImages = ({ images }: CarouselImagesProps) => {
       {/* DotsButton */}
       <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1">
         {scrollSnaps.map((_, index) => (
-          <button key={`dot-${index}`} onClick={() => onDotButtonClick(index)}>
+          <button
+            key={`dot-${index}`}
+            onClick={() => onDotButtonClick(index)}
+            className="cursor-pointer"
+          >
             {index === selectedIndex ? (
               <Image
                 src="/icons/dot-circle.svg"

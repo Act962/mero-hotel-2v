@@ -43,7 +43,11 @@ export function HeroCarousel({ images }: Props) {
       {/* DotsButton */}
       <div className="absolute hidden right-4 top-1/2 -translate-y-1/2 sm:flex gap-2 flex-col">
         {scrollSnaps.map((_, index) => (
-          <button key={`dot-${index}`} onClick={() => onDotButtonClick(index)}>
+          <button
+            key={`dot-${index}`}
+            onClick={() => onDotButtonClick(index)}
+            className="cursor-pointer"
+          >
             {index === selectedIndex ? (
               <Image
                 src="/icons/dot-circle.svg"

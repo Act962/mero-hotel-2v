@@ -30,13 +30,15 @@ export function AccommodationCard({
         imagesOnLeft && "md:flex-row-reverse"
       )}
     >
-      <Image
-        src={images[0].url}
-        alt={images[0].alt}
-        width={400}
-        height={400}
-        className="object-cover h-64 w-full md:h-96"
-      />
+      <div className="relative w-full md:w-1/2 flex-shrink-0">
+        <Image
+          src={images[0].url}
+          alt={images[0].alt}
+          width={400}
+          height={400}
+          className="object-cover w-full h-64 md:h-96"
+        />
+      </div>
 
       <div className="flex flex-col w-full items-start gap-10">
         <div className="space-y-3">
@@ -44,7 +46,7 @@ export function AccommodationCard({
             {title}
           </h3>
           <p className="text-md font-light">{description}</p>
-          <Button variant="secondary">
+          <Button variant="secondary" asChild>
             <Link prefetch href={link}>
               Visitar
             </Link>

@@ -1,13 +1,25 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import Image from "next/image";
 import { ChevronDownIcon } from "lucide-react";
-import { Link, usePathname } from "@/i18n/navigation";
 import { useLocale, useTranslations } from "next-intl";
+import { setUserLocale } from "@/hook/use-locale";
+import { cn } from "@/lib/utils";
 
-const langs = [
+interface LanguageImage {
+  src: string;
+  alt: string;
+}
+
+interface Language {
+  value: string;
+  label: string;
+  image: LanguageImage;
+}
+
+const langs: Language[] = [
   {
     value: "pt",
     label: "Português",
@@ -52,8 +64,8 @@ const langs = [
 export function SelectLanguage() {
   const local = useLocale();
   const t = useTranslations("SelectLang");
-  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [changeLang, setChangeLang] = useTransition();
 
   // Busca o idioma atual com base no locale usando useMemo para otimização
   const currentLang = useMemo(() => {
@@ -66,6 +78,14 @@ export function SelectLanguage() {
   useEffect(() => {
     setLang(currentLang);
   }, [currentLang]);
+
+  const handleChange = async (lang: Language) => {
+    setChangeLang(() => {
+      setLang(lang);
+      setUserLocale(lang.value);
+      setOpen(false);
+    });
+  };
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -82,24 +102,23 @@ export function SelectLanguage() {
       <PopoverContent className="w-[140px] p-1">
         {langs.map((lang, index) => {
           return (
-            <Link
-              href={pathname}
-              locale={lang.value}
+            <button
               key={`${lang.value}-${index}`}
-              className="flex gap-2 focus:bg-accent focus:text-accent-foreground cursor-pointer rounded-sm py-1.5 pr-8 pl-2 text-sm"
-              onClick={() => {
-                setLang(lang);
-                setOpen(false);
-              }}
+              className={cn(
+                "flex gap-2 cursor-pointer rounded-sm py-1.5 pr-8 pl-2 text-sm",
+                lang.value === currentLang.value &&
+                  "bg-accent text-accent-foreground"
+              )}
+              onClick={() => handleChange(lang)}
             >
               <Image
                 src={lang.image.src}
                 alt={lang.image.alt}
                 width={20}
                 height={20}
-              />{" "}
+              />
               <span> {t(`${lang.value}`)} </span>
-            </Link>
+            </button>
           );
         })}
       </PopoverContent>
