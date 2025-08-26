@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Accomodation } from "@/types/accomodation";
+import Image from "next/image";
 
 type AboutSectionProps = {
   accomodation: Accomodation;
@@ -38,9 +39,16 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
             <ul className="space-y-2">
               {accomodation.services.map((service, index) => (
                 <li
-                  className=" p-2 rounded"
+                  className="flex gap-2 items-center p-2 rounded"
                   key={`mobile-${service.name}-${index}`}
                 >
+                  <Image
+                    src={service.icon}
+                    alt={service.name}
+                    width={64}
+                    height={64}
+                    className="size-5"
+                  />
                   {service.name}
                 </li>
               ))}
@@ -54,15 +62,22 @@ export function AboutSection({ accomodation }: AboutSectionProps) {
                 <div className="grid grid-cols-2 gap-2">
                   {serviceRow.map((service, index) => (
                     <div
-                      className=" p-2 rounded"
+                      className="flex gap-2 items-center p-2 rounded"
                       key={`desktop-${service.name}-${index}`}
                     >
+                      <Image
+                        src={service.icon}
+                        alt={service.name}
+                        width={64}
+                        height={64}
+                        className="size-7"
+                      />
                       {service.name}
                     </div>
                   ))}
                 </div>
                 {rowIndex < groupedServices.length - 1 && (
-                  <Separator className="mt-4" />
+                  <Separator className="mt-4 bg-black/60" />
                 )}
               </div>
             ))}

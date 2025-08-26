@@ -1,6 +1,7 @@
 export interface AccomodationService {
   name: string;
   description: string;
+  icon: string;
 }
 
 type Image = {

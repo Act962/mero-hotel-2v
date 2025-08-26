@@ -10,44 +10,54 @@ export const allAccomodations: Accomodation[] = [
     link: "/meroboutique/acomodacoes/select",
     services: [
       {
-        name: "Serviço",
+        name: "Café da manhã e Chá da Tarde",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
       {
-        name: "Serviço",
+        name: "Wellcome Drink",
         description: "...",
+        icon: "/icons/services/glass-cheers.svg",
       },
       {
-        name: "Serviço",
+        name: "Cofre digital",
         description: "...",
+        icon: "/icons/services/shield.svg",
       },
       {
-        name: "Serviço",
+        name: "Secador de Cabelo",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Ferro elétrico",
         description: "...",
+        icon: "/icons/services/shirt.svg",
       },
       {
-        name: "Serviço",
+        name: "Internet (Wi-Fi)",
         description: "...",
+        icon: "/icons/services/wifi.svg",
       },
       {
-        name: "Serviço",
+        name: "Smart TV 40”",
         description: "...",
+        icon: "/icons/services/tv.svg",
       },
       {
-        name: "Serviço",
+        name: "Ar Condicionado Split",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Mesa para passar",
         description: "...",
+        icon: "/icons/services/table.svg",
       },
       {
-        name: "Serviço",
+        name: "Cafeteira",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
     ],
     images: [
@@ -78,44 +88,54 @@ export const allAccomodations: Accomodation[] = [
     link: "/meroboutique/acomodacoes/superior",
     services: [
       {
-        name: "Serviço",
+        name: "Café da manhã e Chá da Tarde",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
       {
-        name: "Serviço",
+        name: "Wellcome Drink",
         description: "...",
+        icon: "/icons/services/glass-cheers.svg",
       },
       {
-        name: "Serviço",
+        name: "Cofre digital",
         description: "...",
+        icon: "/icons/services/shield.svg",
       },
       {
-        name: "Serviço",
+        name: "Secador de Cabelo",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Ferro elétrico",
         description: "...",
+        icon: "/icons/services/shirt.svg",
       },
       {
-        name: "Serviço",
+        name: "Internet (Wi-Fi)",
         description: "...",
+        icon: "/icons/services/wifi.svg",
       },
       {
-        name: "Serviço",
+        name: "Smart TV 40”",
         description: "...",
+        icon: "/icons/services/tv.svg",
       },
       {
-        name: "Serviço",
+        name: "Ar Condicionado Split",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Mesa para passar",
         description: "...",
+        icon: "/icons/services/table.svg",
       },
       {
-        name: "Serviço",
+        name: "Cafeteira",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
     ],
     images: [
@@ -146,24 +166,54 @@ export const allAccomodations: Accomodation[] = [
     link: "/meroboutique/acomodacoes/premium",
     services: [
       {
-        name: "Serviço",
+        name: "Café da manhã e Chá da Tarde",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
       {
-        name: "Serviço",
+        name: "Wellcome Drink",
         description: "...",
+        icon: "/icons/services/glass-cheers.svg",
       },
       {
-        name: "Serviço",
+        name: "Cofre digital",
         description: "...",
+        icon: "/icons/services/shield.svg",
       },
       {
-        name: "Serviço",
+        name: "Secador de Cabelo",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Ferro elétrico",
         description: "...",
+        icon: "/icons/services/shirt.svg",
+      },
+      {
+        name: "Internet (Wi-Fi)",
+        description: "...",
+        icon: "/icons/services/wifi.svg",
+      },
+      {
+        name: "Smart TV 40”",
+        description: "...",
+        icon: "/icons/services/tv.svg",
+      },
+      {
+        name: "Ar Condicionado Split",
+        description: "...",
+        icon: "/icons/services/wind.svg",
+      },
+      {
+        name: "Mesa para passar",
+        description: "...",
+        icon: "/icons/services/table.svg",
+      },
+      {
+        name: "Cafeteira",
+        description: "...",
+        icon: "/icons/services/coffee.svg",
       },
     ],
     images: [
@@ -194,24 +244,54 @@ export const allAccomodations: Accomodation[] = [
     link: "/meroboutique/acomodacoes/loft",
     services: [
       {
-        name: "Serviço",
+        name: "Café da manhã e Chá da Tarde",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
       {
-        name: "Serviço",
+        name: "Wellcome Drink",
         description: "...",
+        icon: "/icons/services/glass-cheers.svg",
       },
       {
-        name: "Serviço",
+        name: "Cofre digital",
         description: "...",
+        icon: "/icons/services/shield.svg",
       },
       {
-        name: "Serviço",
+        name: "Secador de Cabelo",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Ferro elétrico",
         description: "...",
+        icon: "/icons/services/shirt.svg",
+      },
+      {
+        name: "Internet (Wi-Fi)",
+        description: "...",
+        icon: "/icons/services/wifi.svg",
+      },
+      {
+        name: "Smart TV 40”",
+        description: "...",
+        icon: "/icons/services/tv.svg",
+      },
+      {
+        name: "Ar Condicionado Split",
+        description: "...",
+        icon: "/icons/services/wind.svg",
+      },
+      {
+        name: "Mesa para passar",
+        description: "...",
+        icon: "/icons/services/table.svg",
+      },
+      {
+        name: "Cafeteira",
+        description: "...",
+        icon: "/icons/services/coffee.svg",
       },
     ],
     images: [
@@ -242,24 +322,54 @@ export const allAccomodations: Accomodation[] = [
     link: "/meroboutique/acomodacoes/gran-class",
     services: [
       {
-        name: "Serviço",
+        name: "Café da manhã e Chá da Tarde",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
       {
-        name: "Serviço",
+        name: "Wellcome Drink",
         description: "...",
+        icon: "/icons/services/glass-cheers.svg",
       },
       {
-        name: "Serviço",
+        name: "Cofre digital",
         description: "...",
+        icon: "/icons/services/shield.svg",
       },
       {
-        name: "Serviço",
+        name: "Secador de Cabelo",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Ferro elétrico",
         description: "...",
+        icon: "/icons/services/shirt.svg",
+      },
+      {
+        name: "Internet (Wi-Fi)",
+        description: "...",
+        icon: "/icons/services/wifi.svg",
+      },
+      {
+        name: "Smart TV 40”",
+        description: "...",
+        icon: "/icons/services/tv.svg",
+      },
+      {
+        name: "Ar Condicionado Split",
+        description: "...",
+        icon: "/icons/services/wind.svg",
+      },
+      {
+        name: "Mesa para passar",
+        description: "...",
+        icon: "/icons/services/table.svg",
+      },
+      {
+        name: "Cafeteira",
+        description: "...",
+        icon: "/icons/services/coffee.svg",
       },
     ],
     images: [
@@ -290,24 +400,54 @@ export const allAccomodations: Accomodation[] = [
     link: "/meroboutique/acomodacoes/president",
     services: [
       {
-        name: "Serviço",
+        name: "Café da manhã e Chá da Tarde",
         description: "...",
+        icon: "/icons/services/coffee.svg",
       },
       {
-        name: "Serviço",
+        name: "Wellcome Drink",
         description: "...",
+        icon: "/icons/services/glass-cheers.svg",
       },
       {
-        name: "Serviço",
+        name: "Cofre digital",
         description: "...",
+        icon: "/icons/services/shield.svg",
       },
       {
-        name: "Serviço",
+        name: "Secador de Cabelo",
         description: "...",
+        icon: "/icons/services/wind.svg",
       },
       {
-        name: "Serviço",
+        name: "Ferro elétrico",
         description: "...",
+        icon: "/icons/services/shirt.svg",
+      },
+      {
+        name: "Internet (Wi-Fi)",
+        description: "...",
+        icon: "/icons/services/wifi.svg",
+      },
+      {
+        name: "Smart TV 40”",
+        description: "...",
+        icon: "/icons/services/tv.svg",
+      },
+      {
+        name: "Ar Condicionado Split",
+        description: "...",
+        icon: "/icons/services/wind.svg",
+      },
+      {
+        name: "Mesa para passar",
+        description: "...",
+        icon: "/icons/services/table.svg",
+      },
+      {
+        name: "Cafeteira",
+        description: "...",
+        icon: "/icons/services/coffee.svg",
       },
     ],
     images: [

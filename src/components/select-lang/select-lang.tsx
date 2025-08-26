@@ -103,6 +103,7 @@ export function SelectLanguage() {
         {langs.map((lang, index) => {
           return (
             <button
+              title="Change language"
               key={`${lang.value}-${index}`}
               className={cn(
                 "flex gap-2 cursor-pointer rounded-sm py-1.5 pr-8 pl-2 text-sm",
