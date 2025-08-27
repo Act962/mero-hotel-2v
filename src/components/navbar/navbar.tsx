@@ -45,7 +45,7 @@ export function Navbar() {
 
   useEffect(() => {
     const hanldeScroll = () => {
-      setIsScrolled(window.scrollY > 300);
+      setIsScrolled(window.scrollY > 90);
     };
 
     hanldeScroll();
