@@ -1,4 +1,5 @@
 import { Hero } from "@/components/hero";
+import { ExperienceSection } from "./sections";
 
 export function ExperiencePage() {
   return (
@@ -10,6 +11,7 @@ export function ExperiencePage() {
           alt: "Quarto com duas camas de solteiro",
         }}
       />
+      <ExperienceSection />
     </>
   );
 }

@@ -1,4 +1,5 @@
 import { Hero } from "@/components/hero";
+import { GastronomiaSection } from "./sections";
 
 export function GastronomiaPage() {
   return (
@@ -10,6 +11,7 @@ export function GastronomiaPage() {
           alt: "Gastronomia",
         }}
       />
+      <GastronomiaSection />
     </>
   );
 }
