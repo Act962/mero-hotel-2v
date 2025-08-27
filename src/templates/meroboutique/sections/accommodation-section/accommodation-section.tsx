@@ -39,7 +39,7 @@ const accommodations = [
     title: "Experiência",
     description:
       "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
-    link: "/meroboutique/espaco-fitness",
+    link: "/meroboutique/experiencias",
     imagesOnLeft: false,
     images: [
       {

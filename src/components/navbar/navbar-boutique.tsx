@@ -19,11 +19,11 @@ const LINKS = [
   },
   {
     title: "Gastronomia",
-    path: "/meroboutique",
+    path: "/meroboutique/gastronomia",
   },
   {
     title: "Experiências",
-    path: "/meroboutique",
+    path: "/meroboutique/experiencias",
   },
 ];
 
@@ -33,7 +33,7 @@ export function NavbarBoutique() {
 
   useEffect(() => {
     const hanldeScroll = () => {
-      setIsScrolled(window.scrollY > 300);
+      setIsScrolled(window.scrollY > 90);
     };
 
     hanldeScroll();

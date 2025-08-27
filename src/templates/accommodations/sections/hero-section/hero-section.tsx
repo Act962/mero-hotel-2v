@@ -2,7 +2,7 @@ import React from "react";
 
 export function HeroSection() {
   return (
-    <div className="relative h-[80vh] md:h-screen w-full bg-gray-900">
+    <section className="relative h-[80vh] md:h-screen w-full bg-gray-900">
       <video
         src="/mero-hotel-boutique.mp4"
         autoPlay
@@ -20,6 +20,6 @@ export function HeroSection() {
           </h1>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
