@@ -1,4 +1,5 @@
 import { Accomodation } from "@/types/accomodation";
+import { Experience } from "@/types/experiences";
 
 export const allAccomodations: Accomodation[] = [
   {
@@ -468,5 +469,83 @@ export const allAccomodations: Accomodation[] = [
         alt: "Banheira de hidromassagem com velas",
       },
     ],
+  },
+];
+
+export const experiencesGroupMero: Experience[] =[ 
+  {
+    title: "Kite Surf",
+    slug: "kite-surf",
+    description:
+      "Sinta a força do vento e a liberdade do kitesurf em Barra Grande, um dos melhores destinos do mundo para o esporte. Ventos constantes e mar calmo formam o cenário perfeito para iniciantes e experientes. Desfrute de aulas ou sessões guiadas com instrutores experientes. Termine o dia com um pôr do sol inesquecível, celebrando a natureza.",
+    imageUrl: "/experiences/kite-surf.jpg",
+    alt: "Kite Surf",
+    link: "/experiencias",
+    flag: "kite-surf",
+    images: [
+      {
+        url: "/experiences/kite-surf.jpg",
+        alt: "Kite Surf"
+      }
+    ]
+  },
+  {
+    title: "Revoada dos Guarás",
+    slug: "revoda-dos-guaras",
+    description:
+      "A Revoada dos Guarás é um espetáculo natural no Delta do Parnaíba, quando centenas de aves de plumagem vermelha retornam aos ninhos ao entardecer. O fenômeno pinta o céu com tons vibrantes, criando um cenário único e inesquecível. O passeio é feito de lancha, passando por ilhas, dunas e manguezais antes do grande momento.",
+    imageUrl: "/experiences/rovada-dos-guaras.jpg",
+    alt: "Revoada dos Guarás",
+    link: "/experiencias",
+    flag: "rovada-dos-guaras",
+    images: [
+      {
+        url: "/experiences/rovada-dos-guaras.jpg",
+        alt: "Revoada dos Guarás"
+      }
+    ]
+  },
+  {
+    title: "Cajueiro Rei",
+    slug: "cajueiro-rei",
+    description:
+      "Conhecer o Cajueiro-Rei, no litoral do Piauí, é vivenciar a grandiosidade da natureza de perto. Com 8.880 m² de copa, ele encanta pela imponência e pelas histórias que carrega. Passear sob seus galhos centenários é sentir o frescor e a vida pulsando em cada folha. Um cenário único, prestes a conquistar o título de maior cajueiro do mundo.",
+    imageUrl: "/experiences/cajueiro-rei.png",
+    alt: "Cajueiro Rei",
+    link: "/experiencias",
+    flag: "cajueiro-rei",
+    images: [
+      {
+        url: "/experiences/cajueiro-rei.png",
+        alt: "Cajueiro Rei"
+      }
+    ]
+  },
+  {
+    title: "Yahacqua Park",
+    slug: "yahacqua-park",
+    description:
+      "O Yah Acqua Park é o maior parque aquático do Piauí, localizado em Luís Correia, no coração do litoral. Com estrutura moderna e segura, oferece diversão para todas as idades. São atrações emocionantes e espaços para relaxar, tudo em um só lugar. Perfeito para criar memórias inesquecíveis com família e amigo.",
+    imageUrl: "/experiences/yahacqua-park.jpeg",
+    alt: "Yahacqua Park",
+    link: "/experiencias",
+    flag: "yahacqua-park",
+    images: []
+  },
+  {
+    title: "Yahacqua Park",
+    slug: "yahacqua-park",
+    description:
+      "O Yah Acqua Park é o maior parque aquático do Piauí, localizado em Luís Correia, no coração do litoral. Com estrutura moderna e segura, oferece diversão para todas as idades. São atrações emocionantes e espaços para relaxar, tudo em um só lugar. Perfeito para criar memórias inesquecíveis com família e amigo.",
+    imageUrl: "/experiences/yahacqua-park.jpeg",
+    alt: "Yahacqua Park",
+    link: "/",
+    flag: "yahacqua-park",
+    images: [
+      {
+        url: "/experiences/yahacqua-park.jpeg",
+        alt: "Yahacqua Park"
+      }
+    ]
   },
 ];

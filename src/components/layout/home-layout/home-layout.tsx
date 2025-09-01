@@ -9,7 +9,7 @@ interface HomeLayoutProps {
 
 export function HomeLayout({ children }: HomeLayoutProps) {
   return (
-    <div className="relative flex flex-col min-h-screen bg-background">
+    <div className="relative flex flex-col min-h-screen bg-background scroll-smooth" >
       <NextIntlClientProvider>
         <Navbar />
       </NextIntlClientProvider>

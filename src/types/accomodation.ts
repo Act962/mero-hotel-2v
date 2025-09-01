@@ -18,3 +18,7 @@ export interface Accomodation {
   services: AccomodationService[];
   images: Image[];
 }
+
+export interface Experinces {
+  
+}

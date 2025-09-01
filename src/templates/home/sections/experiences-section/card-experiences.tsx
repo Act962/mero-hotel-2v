@@ -5,6 +5,7 @@ import React from "react";
 interface CardExperiencesProps {
   title: string;
   description: string;
+  slug: string;
   imageUrl: string;
   alt: string;
   link: string;
@@ -14,6 +15,7 @@ interface CardExperiencesProps {
 export default function CardExperiences({
   title,
   description,
+  slug,
   imageUrl,
   alt,
   link,
@@ -36,7 +38,7 @@ export default function CardExperiences({
         </h3>
         <p className="text-xs sm:text-sm">{description}</p>
         <Link
-          href={link}
+          href={`${link}/#${slug}`}
           className="uppercase underline underline-offset-3 hover:text-gray-500"
         >
           {linkLegend}

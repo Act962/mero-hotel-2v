@@ -1,2 +1,3 @@
 export * from "./hero-section";
-export * from "./rooms-section";
+export * from "./experiences-section";
+export * from './hero-experiences'
