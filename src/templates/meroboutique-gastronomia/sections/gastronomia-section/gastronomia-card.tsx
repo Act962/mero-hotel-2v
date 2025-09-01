@@ -41,13 +41,13 @@ export function GastronomiaCard({
           <p className="text-md font-light">{description}</p>
         </div>
 
-        <Link
+        {/* <Link
           prefetch
           href={link}
           className="ml-auto uppercase tracking-[3px] hover:underline underline-offset-3 cursor-pointer text-sm md:text-md"
         >
           Saiba mais
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
