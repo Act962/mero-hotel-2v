@@ -20,7 +20,7 @@ export function ExperienceCard({ title, description, imageUrl, alt, slug }: Omit
           <h3 className="uppercase font-medium text-2xl tracking-[4px]">
             {title}
           </h3>
-          <p className="text-sm font-light">{description}</p>
+          <p className="text-sm font-light whitespace-pre-line w-full max-w-3xl">{description}</p>
         </div>
       </div>
     </div>

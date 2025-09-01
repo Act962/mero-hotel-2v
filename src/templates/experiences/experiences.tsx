@@ -1,7 +1,12 @@
 import { experiencesGroupMero } from "@/lib/info";
 import {  ExperienceSection, HeroExperiences } from "./sections";
 
-const images = experiencesGroupMero.flatMap((experience) => experience.images)
+const images = experiencesGroupMero.map((experience) => {
+  return {
+    url: experience.imageUrl,
+    alt: experience.title
+  }
+})
 
 export function ExperiencesPage() {
   return (

@@ -533,19 +533,43 @@ export const experiencesGroupMero: Experience[] =[
     images: []
   },
   {
-    title: "Yahacqua Park",
-    slug: "yahacqua-park",
-    description:
-      "O Yah Acqua Park é o maior parque aquático do Piauí, localizado em Luís Correia, no coração do litoral. Com estrutura moderna e segura, oferece diversão para todas as idades. São atrações emocionantes e espaços para relaxar, tudo em um só lugar. Perfeito para criar memórias inesquecíveis com família e amigo.",
-    imageUrl: "/experiences/yahacqua-park.jpeg",
-    alt: "Yahacqua Park",
-    link: "/",
-    flag: "yahacqua-park",
-    images: [
-      {
-        url: "/experiences/yahacqua-park.jpeg",
-        alt: "Yahacqua Park"
-      }
-    ]
+    title: "Passeio do Peixe-Boi",
+    slug: "passeio-do-peixe-boi",
+    description: "O Passeio do Peixe-Boi começa em Cajueiro da Praia e segue pelo rio Tininha até o estuário para observação da espécie.\nÚnico no mundo com monitoramento em mar aberto, protege o mamífero aquático mais ameaçado de extinção.\nNo litoral piauiense, o peixe-boi encontra águas claras e seguras para viver e se reproduzir. A experiência dura cerca de 3 horas, unindo ecoturismo e preservação ambiental.",
+    imageUrl: "/experiences/peixe-boi.jpg",
+    alt: "Passeio do Peixe-Boi",
+    link: "/experiencias",
+    flag: "passeio-do-peixe-boi",
+    images: []
+  },
+  {
+    title: "Tour do Cavalo-Marinho",
+    slug: "tour-do-cavalo-marinho",
+    description: "A Tour do Cavalo-Marinho começa com um trajeto de charrete pelo vilarejo de Barra Grande, revelando a cultura local.\nEm seguida, a aventura segue de canoa por mangues e igarapés, com observação de fauna e flora nativas.\nHá parada para banho em águas claras e possibilidade de vivenciar a cata do caranguejo com segurança.\nO ponto alto é a observação do cavalo-marinho em seu habitat natural, finalizando com retorno pela beira da praia.",
+    imageUrl: "/experiences/cavalo-marinho-2.jpg",
+    alt: "Tour do Cavalo-Marinho",
+    link: "",
+    flag: "tour-do-cavalo-marinho",
+    images: []
+  },
+  {
+    title: "Lençóis Piauienses",
+    slug: "lencois-piauienses",
+    description: "Os Lençóis Piauienses, localizados entre Parnaíba e Luís Correia, formam um paraíso de dunas e lagoas cristalinas que mudam de cenário a cada estação. Oferecem contato íntimo com a natureza e entrada gratuita.\nSuas areias e vegetação únicas criam um visual encantador, ideal para relaxar ou se aventurar.\nPerfeito para quem busca tranquilidade, paisagens deslumbrantes e experiências na Rota das Emoções.",
+    imageUrl: "/experiences/lencois-pi-1.jpg",
+    alt: "Lençóis Piauienses",
+    link: "",
+    flag: "lencois-piauienses",
+    images: []
+  },
+  {
+    title: "Artesanatos",
+    slug: "artesanatos",
+    description: "Os artesanatos de Barra Grande, no Piauí, refletem a identidade e a tradição da antiga vila de pescadores.\nFeitos à mão por talentosos artesãos, utilizam matérias-primas locais como palha de carnaúba, conchas e fibras naturais.\nCada peça carrega histórias, saberes e o toque da cultura piauiense. São lembranças autênticas que unem beleza, utilidade e valorização da produção local",
+    imageUrl: "/experiences/artesanato-5.jpg",
+    alt: "Artesanatos",
+    link: "",
+    flag: "artesanatos",
+    images: []
   },
 ];

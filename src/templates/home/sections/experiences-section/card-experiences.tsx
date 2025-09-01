@@ -40,6 +40,7 @@ export default function CardExperiences({
         <Link
           href={`${link}/#${slug}`}
           className="uppercase underline underline-offset-3 hover:text-gray-500"
+          scroll
         >
           {linkLegend}
         </Link>
