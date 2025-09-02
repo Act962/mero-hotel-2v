@@ -10,13 +10,13 @@ export const metadata: Metadata = {
     title: "Mero Hotel | Boutique",
     description:
       "No Mero Hotel Boutique, em Barra Grande-PI, o sol se ergue em memórias. Nosso oásis mediterrâneo sussurra conforto com piscinas ou jacuzzis privativas, toques de bem-estar e o abraço do Mero Mar Lounge. Desperte para um delicioso café da manhã!",
-    url: "https://mero-hotel.vercel.app/meroboutique",
+    url: "https://www.grupomero.com.br/meroboutique",
     siteName: "Mero Hotel | Boutique",
     locale: "pt_BR",
     type: "website",
     images: [
       {
-        url: "https://mero-hotel.vercel.app/mero-hotel-boutique.jpg",
+        url: "https://www.grupomero.com.br/mero-hotel-boutique.jpg",
         width: 800,
         height: 600,
         alt: "Mero Hotel | Boutique",
