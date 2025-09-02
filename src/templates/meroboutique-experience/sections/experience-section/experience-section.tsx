@@ -59,20 +59,20 @@ const experiences = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/balcony-breakfast-1.jpg",
+        alt: "Balcony Breakfast 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/balcony-breakfast-2.jpg",
+        alt: "Balcony Breakfast 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/balcony-breakfast-3.jpg",
+        alt: "Balcony Breakfast 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/balcony-breakfast-4.jpg",
+        alt: "Balcony Breakfast 4",
       },
     ],
   },
@@ -84,20 +84,20 @@ const experiences = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/com-amor-mero-1.jpg",
+        alt: "Com Amor, Mero 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/com-amor-mero-2.jpg",
+        alt: "Com Amor, Mero 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/com-amor-mero-3.jpg",
+        alt: "Com Amor, Mero 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/com-amor-mero-4.jpg",
+        alt: "Com Amor, Mero 4",
       },
     ],
   },
@@ -134,20 +134,20 @@ const experiences = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/folia-gourmet-1.jpg",
+        alt: "Folia Gourmet, Mero 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/folia-gourmet-2.jpg",
+        alt: "Folia Gourmet, Mero 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/folia-gourmet-3.webp",
+        alt: "Folia Gourmet, Mero 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/folia-gourmet-4.webp",
+        alt: "Folia Gourmet, Mero 4",
       },
     ],
   },
@@ -159,20 +159,20 @@ const experiences = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/caminhada-na-praia-1.jpg",
+        alt: "Caminhada na Praia 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/caminhada-na-praia-2.jpg",
+        alt: "Caminhada na Praia 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/caminhada-na-praia-3.jpg",
+        alt: "Caminhada na Praia 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/caminhada-na-praia-4.jpg",
+        alt: "Caminhada na Praia 4",
       },
     ],
   },
