@@ -9,20 +9,20 @@ const experiences = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/select/image-1.jpg",
-        alt: "Vista do mar da varanda da suíte",
+        url: "/meroboutique/experiences/cha-da-tarde-1.jpg",
+        alt: "Chá da Trade 1",
       },
       {
-        url: "/meroboutique/select/image-2.jpg",
-        alt: "Cama king size com decoração aconchegante",
+        url: "/meroboutique/experiences/cha-da-tarde-2.jpg",
+        alt: "Chá da Trade 2",
       },
       {
-        url: "/meroboutique/select/image-3.jpg",
-        alt: "Vista do mar da varanda da suíte",
+        url: "/meroboutique/experiences/cha-da-tarde-3.jpg",
+        alt: "Chá da Trade 3",
       },
       {
-        url: "/meroboutique/select/image-4.jpg",
-        alt: "Vista do mar da varanda da suíte",
+        url: "/meroboutique/experiences/cha-da-tarde-4.jpg",
+        alt: "Chá da Trade 4",
       },
     ],
   },
@@ -34,20 +34,20 @@ const experiences = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/meroboutique/superior/image-1.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/experiences/bg-memoravel-1.jpg",
+        alt: "BG Memorável 1",
       },
       {
-        url: "/meroboutique/superior/image-2.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/experiences/bg-memoravel-2.jpg",
+        alt: "BG Memorável 2",
       },
       {
-        url: "/meroboutique/superior/image-3.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/experiences/bg-memoravel-3.jpg",
+        alt: "BG Memorável 3",
       },
       {
-        url: "/meroboutique/superior/image-4.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/experiences/bg-memoravel-4.jpg",
+        alt: "BG Memorável 4",
       },
     ],
   },
@@ -109,20 +109,20 @@ const experiences = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/spa-1.jpg",
+        alt: "SPA Mero 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/spa-2.jpg",
+        alt: "SPA Mero 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/spa-3.jpg",
+        alt: "SPA Mero 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/spa-4.jpg",
+        alt: "SPA Mero 4",
       },
     ],
   },
@@ -184,20 +184,20 @@ const experiences = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/kite-surf-1.jpg",
+        alt: "Kite Surf 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/kite-surf-2.jpg",
+        alt: "Kite Surf 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/kite-surf-1.jpg",
+        alt: "Kite Surf 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/kite-surf-2.jpg",
+        alt: "Kite Surf 4",
       },
     ],
   },
@@ -209,20 +209,20 @@ const experiences = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/mbar-1.jpg",
+        alt: "MBAR & Restaurante 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/mbar-2.jpg",
+        alt: "MBAR & Restaurante 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/mbar-3.jpg",
+        alt: "MBAR & Restaurante 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/mbar-4.jpg",
+        alt: "MBAR & Restaurante 4",
       },
     ],
   },
