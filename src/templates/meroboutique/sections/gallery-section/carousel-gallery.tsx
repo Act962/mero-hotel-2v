@@ -142,7 +142,7 @@ export const CarouselGallery: React.FC<EmblaCarouselProps> = ({
                   src={slide.src}
                   alt={slide.alt}
                   fill
-                  className="w-full h-full object-cover rounded-2xl shadow-lg"
+                  className="w-full h-full object-cover shadow-lg"
                   priority={index < 2}
                 />
               </div>
