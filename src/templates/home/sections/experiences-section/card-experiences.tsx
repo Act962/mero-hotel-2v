@@ -24,12 +24,14 @@ export default function CardExperiences({
   return (
     <div>
       <div className="relative overflow-hidden group h-64 md:h-72">
-        <Image
+        <Link href={`${link}/#${slug}`}>
+          <Image
           src={imageUrl}
           alt={alt}
           className="object-cover group-hover:scale-110 transition-transform duration-300"
           fill
         />
+        </Link>
       </div>
 
       <div className="text-start space-y-3 mt-8">

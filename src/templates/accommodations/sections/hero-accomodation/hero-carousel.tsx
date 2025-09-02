@@ -46,25 +46,9 @@ export function HeroCarousel({ images }: Props) {
           <button
             key={`dot-${index}`}
             onClick={() => onDotButtonClick(index)}
-            className="cursor-pointer"
+            className="cursor-pointer size-4 rounded-full border-2 border-white flex items-center justify-center"
           >
-            {index === selectedIndex ? (
-              <Image
-                src="/icons/dot-circle.svg"
-                alt={`Dot-${index}`}
-                width={18}
-                height={18}
-                className="fill-white cursor-pointer"
-              />
-            ) : (
-              <Image
-                src="/icons/circle.svg"
-                alt={`Dot-${index}`}
-                width={18}
-                height={18}
-                className="fill-white cursor-pointer transition-colors opacity-70 hover:opacity-100"
-              />
-            )}
+            {index === selectedIndex ? <div className="size-2 rounded-full bg-white" /> : null}
           </button>
         ))}
       </div>
