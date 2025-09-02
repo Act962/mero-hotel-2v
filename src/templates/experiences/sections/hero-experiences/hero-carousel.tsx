@@ -2,6 +2,7 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import { EmblaCarouselType } from "embla-carousel";
+import Autoplay from 'embla-carousel-autoplay'
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 
@@ -17,8 +18,8 @@ interface Props {
 export function HeroCarousel({ images }: Props) {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     axis: "x",
-    loop: true,
-  });
+    loop: true, 
+  }, [Autoplay({ playOnInit: true, delay: 3000, stopOnInteraction: false })]);
 
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
     useDotButton(emblaApi);
@@ -41,7 +42,7 @@ export function HeroCarousel({ images }: Props) {
       </div>
 
       {/* DotsButton */}
-      <div className="absolute hidden right-4 top-1/2 -translate-y-1/2 sm:flex gap-2 flex-col">
+      {/* <div className="absolute hidden right-4 top-1/2 -translate-y-1/2 sm:flex gap-2 flex-col">
         {scrollSnaps.map((_, index) => (
           <button
             key={`dot-${index}`}
@@ -67,7 +68,7 @@ export function HeroCarousel({ images }: Props) {
             )}
           </button>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
