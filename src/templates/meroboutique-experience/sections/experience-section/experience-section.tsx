@@ -234,20 +234,20 @@ const experiences = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/translado-mero-1.JPG",
+        alt: "Translado Mero",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/translado-mero-2.JPG",
+        alt: "Translado Mero",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/translado-mero-3.JPG",
+        alt: "Translado Mero",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/experiences/translado-mero-4.JPG",
+        alt: "Translado Mero",
       },
     ],
   },
@@ -259,48 +259,48 @@ const experiences = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
+        url: "/meroboutique/experiences/sunset-mero-1.jpg",
         alt: "Quarto com duas camas de solteiro",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
+        url: "/meroboutique/experiences/sunset-mero-2.jpg",
         alt: "Quarto com duas camas de solteiro",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
+        url: "/meroboutique/experiences/sunset-mero-3.jpg",
         alt: "Quarto com duas camas de solteiro",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
+        url: "/meroboutique/experiences/sunset-mero-4.jpg",
         alt: "Quarto com duas camas de solteiro",
       },
     ],
   },
-  {
-    title: "JACUZZI’S AO AR LIVRE",
-    description:
-      "Cinco Jacuzzi’s ao ar livre esperam por você com conforto e descanso absoluto. Integradas ao paisagismo do Mero, elas oferecem momentos de relaxamento em meio à natureza, com vista para nossos jardins. Disponíveis para uso dos hóspedes a qualquer hora do dia, contam com água morna e bolhas suaves que revigoram o corpo e a mente. Após a praia ou no entardecer, são o refúgio ideal para desacelerar. Viva esse momento com o toque especial do Mero.",
-    link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: true,
-    images: [
-      {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
-      },
-      {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
-      },
-      {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
-      },
-      {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
-      },
-    ],
-  },
+  // {
+  //   title: "JACUZZI’S AO AR LIVRE",
+  //   description:
+  //     "Cinco Jacuzzi’s ao ar livre esperam por você com conforto e descanso absoluto. Integradas ao paisagismo do Mero, elas oferecem momentos de relaxamento em meio à natureza, com vista para nossos jardins. Disponíveis para uso dos hóspedes a qualquer hora do dia, contam com água morna e bolhas suaves que revigoram o corpo e a mente. Após a praia ou no entardecer, são o refúgio ideal para desacelerar. Viva esse momento com o toque especial do Mero.",
+  //   link: "/meroboutique/acomodacoes/premium",
+  //   imagesOnLeft: true,
+  //   images: [
+  //     {
+  //       url: "/meroboutique/premium/image-1.jpg",
+  //       alt: "Quarto com duas camas de solteiro",
+  //     },
+  //     {
+  //       url: "/meroboutique/premium/image-2.jpg",
+  //       alt: "Quarto com duas camas de solteiro",
+  //     },
+  //     {
+  //       url: "/meroboutique/premium/image-3.jpg",
+  //       alt: "Quarto com duas camas de solteiro",
+  //     },
+  //     {
+  //       url: "/meroboutique/premium/image-4.jpg",
+  //       alt: "Quarto com duas camas de solteiro",
+  //     },
+  //   ],
+  // },
 ];
 
 export function ExperienceSection() {
