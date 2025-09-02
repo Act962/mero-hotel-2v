@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.grupomero.com.br/mero-hotel-boutique.jpg/meroboutique/select/image-1.jpg",
+        url: "https://www.grupomero.com.br/meroboutique/select/image-1.jpg",
         width: 800,
         height: 600,
         alt: "Mero Boutique | Acomodações",
