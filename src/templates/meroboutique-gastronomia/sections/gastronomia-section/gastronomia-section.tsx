@@ -9,20 +9,20 @@ const accommodations = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/select/image-1.jpg",
-        alt: "Vista do mar da varanda da suíte",
+        url: "/meroboutique/gastronomia/cafe-da-manha-1.jpg",
+        alt: "Café da Manhã 1",
       },
       {
-        url: "/meroboutique/select/image-2.jpg",
-        alt: "Cama king size com decoração aconchegante",
+        url: "/meroboutique/gastronomia/cafe-da-manha-2.jpg",
+        alt: "Café da Manhã 2",
       },
       {
-        url: "/meroboutique/select/image-3.jpg",
-        alt: "Vista do mar da varanda da suíte",
+        url: "/meroboutique/gastronomia/cafe-da-manha-3.jpg",
+        alt: "Café da Manhã 3",
       },
       {
-        url: "/meroboutique/select/image-4.jpg",
-        alt: "Vista do mar da varanda da suíte",
+        url: "/meroboutique/gastronomia/cafe-da-manha-3.jpg",
+        alt: "Café da Manhã 4",
       },
     ],
   },
@@ -34,20 +34,20 @@ const accommodations = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/meroboutique/superior/image-1.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/gastronomia/petiscos-1.jpg",
+        alt: "Petiscos 1",
       },
       {
-        url: "/meroboutique/superior/image-2.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/gastronomia/petiscos-2.jpg",
+        alt: "Petiscos 2",
       },
       {
-        url: "/meroboutique/superior/image-3.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/gastronomia/petiscos-3.jpg",
+        alt: "Petiscos 3",
       },
       {
-        url: "/meroboutique/superior/image-4.jpg",
-        alt: "Chalé de madeira com lareira acesa",
+        url: "/meroboutique/gastronomia/petiscos-4.jpg",
+        alt: "Petiscos 4",
       },
     ],
   },
@@ -59,20 +59,20 @@ const accommodations = [
     imagesOnLeft: false,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/almoco-1.jpg",
+        alt: "Almoço 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/almoco-2.jpg",
+        alt: "Almoço 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/almoco-3.jpg",
+        alt: "Almoço 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/almoco-4.jpg",
+        alt: "Almoço 4",
       },
     ],
   },
@@ -84,20 +84,20 @@ const accommodations = [
     imagesOnLeft: true,
     images: [
       {
-        url: "/meroboutique/premium/image-1.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/drinks-1.jpg",
+        alt: "Drinks 1",
       },
       {
-        url: "/meroboutique/premium/image-2.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/drinks-1.jpg",
+        alt: "Drinks 2",
       },
       {
-        url: "/meroboutique/premium/image-3.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/drinks-1.jpg",
+        alt: "Drinks 3",
       },
       {
-        url: "/meroboutique/premium/image-4.jpg",
-        alt: "Quarto com duas camas de solteiro",
+        url: "/meroboutique/gastronomia/drinks-1.jpg",
+        alt: "Drinks 4",
       },
     ],
   },
