@@ -44,7 +44,7 @@ export function CardGroup({
         <Link
           prefetch
           href={link}
-          className="uppercase underline underline-offset-3 hover:text-gray-300"
+          className="uppercase underline underline-offset-3 transition-colors hover:text-gray-300"
         >
           {linkLegend}
         </Link>

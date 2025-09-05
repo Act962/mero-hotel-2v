@@ -26,11 +26,11 @@ export default function CardExperiences({
       <div className="relative overflow-hidden group h-64 md:h-72">
         <Link href={`${link}/#${slug}`}>
           <Image
-          src={imageUrl}
-          alt={alt}
-          className="object-cover group-hover:scale-110 transition-transform duration-300"
-          fill
-        />
+            src={imageUrl}
+            alt={alt}
+            className="object-cover group-hover:scale-110 transition-transform duration-300"
+            fill
+          />
         </Link>
       </div>
 
@@ -41,7 +41,7 @@ export default function CardExperiences({
         <p className="text-xs sm:text-sm">{description}</p>
         <Link
           href={`${link}/#${slug}`}
-          className="uppercase underline underline-offset-3 hover:text-gray-500"
+          className="uppercase underline underline-offset-3 transition-colors hover:text-gray-500"
           scroll
         >
           {linkLegend}

@@ -3,7 +3,7 @@ import {
   WelcomeSection,
   GroupSection,
   ExperiencesSection,
-  AccommodationSection,
+  ClimateSection,
   LocationSection,
 } from "./sections";
 
@@ -14,7 +14,7 @@ export function HomePage() {
       <WelcomeSection />
       <GroupSection />
       <ExperiencesSection />
-      <AccommodationSection />
+      <ClimateSection />
       <LocationSection />
     </>
   );
