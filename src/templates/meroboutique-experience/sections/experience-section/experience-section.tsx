@@ -27,31 +27,6 @@ const experiences = [
     ],
   },
   {
-    title: "BG Memorável",
-    description:
-      "Explore os encantos naturais do litoral com os passeios sugeridos pelo Mero. Barra Grande, um dos vilarejos mais encantadores do Nordeste, é porta de entrada para experiências memoráveis como a Revoada dos Guarás, um espetáculo ao entardecer onde centenas de aves vermelhas colorem o céu sobre o Delta do Parnaíba. O passeio pelo Delta revela um arquipélago de ilhas, dunas e manguezais repletos de biodiversidade e paisagens deslumbrantes. Para os aventureiros, a Trilha do Cavalo-Marinho permite avistar esse pequeno animal em seu habitat natural. A melhor época para visitar vai de julho a dezembro, com clima seco ideal para praias e kitesurf, garantindo uma experiência única na Rota das Emoções.",
-    link: "/meroboutique/acomodacoes/superior",
-    imagesOnLeft: true,
-    images: [
-      {
-        url: "/meroboutique/experiences/bg-memoravel-1.jpg",
-        alt: "BG Memorável 1",
-      },
-      {
-        url: "/meroboutique/experiences/bg-memoravel-2.jpg",
-        alt: "BG Memorável 2",
-      },
-      {
-        url: "/meroboutique/experiences/bg-memoravel-3.jpg",
-        alt: "BG Memorável 3",
-      },
-      {
-        url: "/meroboutique/experiences/bg-memoravel-4.jpg",
-        alt: "BG Memorável 4",
-      },
-    ],
-  },
-  {
     title: "Balcony Breakfast",
     description:
       "Desperte com um toque de exclusividade no Mero: o nosso Balcony Breakfast torna o início do seu dia verdadeiramente memorável. Saboreie um café da manhã preparado com carinho, servido no conforto do seu quarto. A varanda oferece uma vista deslumbrante para a piscina, acompanhada pela brisa suave e o aroma do café fresco. Uma experiência pensada para surpreender e encantar. Ideal para partilhar a dois ou desfrutar um momento só seu. Comece o dia com tranquilidade, elegância e sabor.",
@@ -148,56 +123,6 @@ const experiences = [
       {
         url: "/meroboutique/experiences/folia-gourmet-4.webp",
         alt: "Folia Gourmet, Mero 4",
-      },
-    ],
-  },
-  {
-    title: "CAMINHADA NA PRAIA",
-    description:
-      "Comece ou finalize o dia em plena harmonia com a natureza em uma caminhada pela extensa faixa de areia de Barra Grande. Com a brisa constante e o som das ondas como trilha sonora, essa experiência convida à leveza, ao movimento consciente e ao reencontro com o essencial. Como proposta de estilo de vida wellness, o Mero oferece esse momento exclusivo para hóspedes que buscam desacelerar e se reconectar. Momento memorável para renovar as energias e cultivar a presença.",
-    link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: false,
-    images: [
-      {
-        url: "/meroboutique/experiences/caminhada-na-praia-1.jpg",
-        alt: "Caminhada na Praia 1",
-      },
-      {
-        url: "/meroboutique/experiences/caminhada-na-praia-2.jpg",
-        alt: "Caminhada na Praia 2",
-      },
-      {
-        url: "/meroboutique/experiences/caminhada-na-praia-3.jpg",
-        alt: "Caminhada na Praia 3",
-      },
-      {
-        url: "/meroboutique/experiences/caminhada-na-praia-4.jpg",
-        alt: "Caminhada na Praia 4",
-      },
-    ],
-  },
-  {
-    title: "KITE SURF",
-    description:
-      "Desperte a sua conexão com o vento em uma das melhores regiões do mundo para o kitesurf. Em Barra Grande, os ventos constantes e o mar calmo criam o cenário ideal para essa experiência cheia de liberdade e adrenalina. O Mero oferece acesso facilitado e curadoria personalizada para aulas ou sessões guiadas com instrutores experientes. Seja você iniciante ou avançado, cada momento na água é uma celebração da natureza. Aproveite o pôr do sol ao fim do dia e sinta-se parte do espetáculo. Uma sugestão imperdível para quem busca emoção com exclusividade.",
-    link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: true,
-    images: [
-      {
-        url: "/meroboutique/experiences/kite-surf-1.jpg",
-        alt: "Kite Surf 1",
-      },
-      {
-        url: "/meroboutique/experiences/kite-surf-2.jpg",
-        alt: "Kite Surf 2",
-      },
-      {
-        url: "/meroboutique/experiences/kite-surf-1.jpg",
-        alt: "Kite Surf 3",
-      },
-      {
-        url: "/meroboutique/experiences/kite-surf-2.jpg",
-        alt: "Kite Surf 4",
       },
     ],
   },
