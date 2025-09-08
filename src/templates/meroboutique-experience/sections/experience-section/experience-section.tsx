@@ -201,31 +201,6 @@ const experiences = [
       },
     ],
   },
-  // {
-  //   title: "JACUZZI’S AO AR LIVRE",
-  //   description:
-  //     "Cinco Jacuzzi’s ao ar livre esperam por você com conforto e descanso absoluto. Integradas ao paisagismo do Mero, elas oferecem momentos de relaxamento em meio à natureza, com vista para nossos jardins. Disponíveis para uso dos hóspedes a qualquer hora do dia, contam com água morna e bolhas suaves que revigoram o corpo e a mente. Após a praia ou no entardecer, são o refúgio ideal para desacelerar. Viva esse momento com o toque especial do Mero.",
-  //   link: "/meroboutique/acomodacoes/premium",
-  //   imagesOnLeft: true,
-  //   images: [
-  //     {
-  //       url: "/meroboutique/premium/image-1.jpg",
-  //       alt: "Quarto com duas camas de solteiro",
-  //     },
-  //     {
-  //       url: "/meroboutique/premium/image-2.jpg",
-  //       alt: "Quarto com duas camas de solteiro",
-  //     },
-  //     {
-  //       url: "/meroboutique/premium/image-3.jpg",
-  //       alt: "Quarto com duas camas de solteiro",
-  //     },
-  //     {
-  //       url: "/meroboutique/premium/image-4.jpg",
-  //       alt: "Quarto com duas camas de solteiro",
-  //     },
-  //   ],
-  // },
 ];
 
 export function ExperienceSection() {

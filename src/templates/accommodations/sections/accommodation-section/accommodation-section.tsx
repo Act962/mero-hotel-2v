@@ -88,10 +88,6 @@ const accommodations = [
         alt: "Quarto com cama de casal e escrivaninha",
       },
       {
-        url: "/meroboutique/loft/image-2.jpg",
-        alt: "Quarto com cama de casal e escrivaninha",
-      },
-      {
         url: "/meroboutique/loft/image-3.jpg",
         alt: "Quarto com cama de casal e escrivaninha",
       },

@@ -3,5 +3,6 @@ export * from "./welcome-section";
 export * from "./group-section";
 export * from "./experiences-section";
 export * from "./climate-section";
+export * from "./careers-section";
 export * from "./faq-section";
 export * from "./location-section";
