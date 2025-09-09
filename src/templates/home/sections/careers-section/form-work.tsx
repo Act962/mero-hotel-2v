@@ -48,23 +48,23 @@ export default function FormWork() {
   const formSubmit = async () => {
     await sendToCrm();
 
-    //     const subject = encodeURIComponent("Candidatura - Trabalhe Conosco");
-    //     const body = encodeURIComponent(`Olá,
+    const subject = encodeURIComponent("Candidatura - Trabalhe Conosco");
+    const body = encodeURIComponent(`Olá,
 
-    // Tenho interesse em fazer parte da equipe da Mero Boutique.
+    Tenho interesse em fazer parte da equipe da Mero Boutique.
 
-    // Segue em anexo meu currículo para análise.
+    Segue em anexo meu currículo para análise.
 
-    // Nome:
-    // Cargo de interesse:
-    // Telefone:
-    // Experiência relevante:
+    Nome:
+    Cargo de interesse:
+    Telefone:
+    Experiência relevante:
 
-    // Atenciosamente,`);
+    Atenciosamente,`);
 
-    //     window.location.href = `mailto:diretoriageral@meroboutique.com.br?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:diretoriageral@meroboutique.com.br?subject=${subject}&body=${body}`;
 
-    //     form.reset();
+    form.reset();
   };
   return (
     <form onSubmit={form.handleSubmit(formSubmit)} className="space-y-6">
@@ -90,7 +90,7 @@ export default function FormWork() {
           form.setValue("phone", masked);
         }}
       />
-      <Button type="submit" className="w-full" variant="primary">
+      <Button type="submit" className="w-full h-12" variant="primary">
         Enviar
       </Button>
     </form>

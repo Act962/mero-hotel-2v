@@ -28,7 +28,7 @@ export default function CardExperiences({
           <Image
             src={imageUrl}
             alt={alt}
-            className="object-cover group-hover:scale-110 transition-transform duration-300"
+            className="object-cover group-hover:scale-110 transition-transform duration-300 bg-bottom"
             fill
           />
         </Link>

@@ -472,7 +472,7 @@ export const allAccomodations: Accomodation[] = [
   },
 ];
 
-export const experiencesGroupMero: Experience[] =[ 
+export const experiencesGroupMero: Experience[] = [
   {
     title: "Kite Surf",
     slug: "kite-surf",
@@ -485,25 +485,25 @@ export const experiencesGroupMero: Experience[] =[
     images: [
       {
         url: "/experiences/kite-surf.jpg",
-        alt: "Kite Surf"
-      }
-    ]
+        alt: "Kite Surf",
+      },
+    ],
   },
   {
     title: "Revoada dos Guarás",
     slug: "revoda-dos-guaras",
     description:
       "A Revoada dos Guarás é um espetáculo natural no Delta do Parnaíba, quando centenas de aves de plumagem vermelha retornam aos ninhos ao entardecer. O fenômeno pinta o céu com tons vibrantes, criando um cenário único e inesquecível. O passeio é feito de lancha, passando por ilhas, dunas e manguezais antes do grande momento.",
-    imageUrl: "/experiences/rovada-dos-guaras.jpg",
+    imageUrl: "/experiences/quadri-aventuras.jpg",
     alt: "Revoada dos Guarás",
     link: "/experiencias",
     flag: "rovada-dos-guaras",
     images: [
       {
         url: "/experiences/rovada-dos-guaras.jpg",
-        alt: "Revoada dos Guarás"
-      }
-    ]
+        alt: "Revoada dos Guarás",
+      },
+    ],
   },
   {
     title: "Cajueiro Rei",
@@ -517,9 +517,9 @@ export const experiencesGroupMero: Experience[] =[
     images: [
       {
         url: "/experiences/cajueiro-rei.png",
-        alt: "Cajueiro Rei"
-      }
-    ]
+        alt: "Cajueiro Rei",
+      },
+    ],
   },
   {
     title: "Yahacqua Park",
@@ -530,46 +530,50 @@ export const experiencesGroupMero: Experience[] =[
     alt: "Yahacqua Park",
     link: "/experiencias",
     flag: "yahacqua-park",
-    images: []
+    images: [],
   },
   {
     title: "Passeio do Peixe-Boi",
     slug: "passeio-do-peixe-boi",
-    description: "O Passeio do Peixe-Boi começa em Cajueiro da Praia e segue pelo rio Tininha até o estuário para observação da espécie.\nÚnico no mundo com monitoramento em mar aberto, protege o mamífero aquático mais ameaçado de extinção.\nNo litoral piauiense, o peixe-boi encontra águas claras e seguras para viver e se reproduzir. A experiência dura cerca de 3 horas, unindo ecoturismo e preservação ambiental.",
+    description:
+      "O Passeio do Peixe-Boi começa em Cajueiro da Praia e segue pelo rio Tininha até o estuário para observação da espécie.\nÚnico no mundo com monitoramento em mar aberto, protege o mamífero aquático mais ameaçado de extinção.\nNo litoral piauiense, o peixe-boi encontra águas claras e seguras para viver e se reproduzir. A experiência dura cerca de 3 horas, unindo ecoturismo e preservação ambiental.",
     imageUrl: "/experiences/peixe-boi.jpg",
     alt: "Passeio do Peixe-Boi",
     link: "/experiencias",
     flag: "passeio-do-peixe-boi",
-    images: []
+    images: [],
   },
   {
     title: "Tour do Cavalo-Marinho",
     slug: "tour-do-cavalo-marinho",
-    description: "A Tour do Cavalo-Marinho começa com um trajeto de charrete pelo vilarejo de Barra Grande, revelando a cultura local.\nEm seguida, a aventura segue de canoa por mangues e igarapés, com observação de fauna e flora nativas.\nHá parada para banho em águas claras e possibilidade de vivenciar a cata do caranguejo com segurança.\nO ponto alto é a observação do cavalo-marinho em seu habitat natural, finalizando com retorno pela beira da praia.",
+    description:
+      "A Tour do Cavalo-Marinho começa com um trajeto de charrete pelo vilarejo de Barra Grande, revelando a cultura local.\nEm seguida, a aventura segue de canoa por mangues e igarapés, com observação de fauna e flora nativas.\nHá parada para banho em águas claras e possibilidade de vivenciar a cata do caranguejo com segurança.\nO ponto alto é a observação do cavalo-marinho em seu habitat natural, finalizando com retorno pela beira da praia.",
     imageUrl: "/experiences/cavalo-marinho-2.jpg",
     alt: "Tour do Cavalo-Marinho",
     link: "",
     flag: "tour-do-cavalo-marinho",
-    images: []
+    images: [],
   },
   {
     title: "Lençóis Piauienses",
     slug: "lencois-piauienses",
-    description: "Os Lençóis Piauienses, localizados entre Parnaíba e Luís Correia, formam um paraíso de dunas e lagoas cristalinas que mudam de cenário a cada estação. Oferecem contato íntimo com a natureza e entrada gratuita.\nSuas areias e vegetação únicas criam um visual encantador, ideal para relaxar ou se aventurar.\nPerfeito para quem busca tranquilidade, paisagens deslumbrantes e experiências na Rota das Emoções.",
+    description:
+      "Os Lençóis Piauienses, localizados entre Parnaíba e Luís Correia, formam um paraíso de dunas e lagoas cristalinas que mudam de cenário a cada estação. Oferecem contato íntimo com a natureza e entrada gratuita.\nSuas areias e vegetação únicas criam um visual encantador, ideal para relaxar ou se aventurar.\nPerfeito para quem busca tranquilidade, paisagens deslumbrantes e experiências na Rota das Emoções.",
     imageUrl: "/experiences/lencois-pi-1.jpg",
     alt: "Lençóis Piauienses",
     link: "",
     flag: "lencois-piauienses",
-    images: []
+    images: [],
   },
   {
     title: "Artesanatos",
     slug: "artesanatos",
-    description: "Os artesanatos de Barra Grande, no Piauí, refletem a identidade e a tradição da antiga vila de pescadores.\nFeitos à mão por talentosos artesãos, utilizam matérias-primas locais como palha de carnaúba, conchas e fibras naturais.\nCada peça carrega histórias, saberes e o toque da cultura piauiense. São lembranças autênticas que unem beleza, utilidade e valorização da produção local",
+    description:
+      "Os artesanatos de Barra Grande, no Piauí, refletem a identidade e a tradição da antiga vila de pescadores.\nFeitos à mão por talentosos artesãos, utilizam matérias-primas locais como palha de carnaúba, conchas e fibras naturais.\nCada peça carrega histórias, saberes e o toque da cultura piauiense. São lembranças autênticas que unem beleza, utilidade e valorização da produção local",
     imageUrl: "/experiences/artesanato-5.jpg",
     alt: "Artesanatos",
     link: "",
     flag: "artesanatos",
-    images: []
+    images: [],
   },
 ];
