@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Send } from "lucide-react";
 
-export function Footer() {
+export function FooterBoutique() {
   return (
     <footer className="flex flex-col items-center justify-center py-24 bg-black text-white px-4 sm:px-8 ">
       {/* Container */}
