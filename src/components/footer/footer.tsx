@@ -13,22 +13,43 @@ export function Footer() {
           <div className="flex flex-col gap-4">
             <div className="space-y-3 text-center sm:text-start">
               <h3 className="font-medium text-sm uppercase tracking-[0.3rem]">
-                Mero Hotel Boutique
+                Mero Boutique
               </h3>
-              <p className="text-xs font-light underline underline-offset-3 text-gray-300">
-                R. das Flores, 300 - Barra Grande, <br />
-                Cajueiro da Praia - PI, 64222-000
-              </p>
+              <Link
+                href="https://maps.app.goo.gl/2TKG6FdFvEVvr1Ph8"
+                target="_blank"
+                className="text-xs font-light hover:underline underline-offset-3 text-gray-300 leading-normal"
+              >
+                <div>R. das Flores, 300 - Barra Grande,</div>
+                <div>Cajueiro da Praia - PI, 64222-000</div>
+              </Link>
             </div>
 
             <div className="space-y-3 text-center sm:text-start">
               <h3 className="font-medium text-sm uppercase tracking-[0.3rem]">
-                Mero Hotel Boutique
+                Mero Lounge
               </h3>
-              <p className="text-xs font-light underline underline-offset-3 text-gray-300">
-                R. das Flores, 300 - Barra Grande, <br />
-                Cajueiro da Praia - PI, 64222-000
-              </p>
+              <Link
+                href="https://maps.app.goo.gl/hMZCaMkEMMwa7W1U8"
+                target="_blank"
+                className="text-xs font-light hover:underline underline-offset-3 text-gray-300 leading-normal"
+              >
+                <div>R. das Prais, S/N - Barra Grande,</div>
+                <div>Cajueiro da Praia - PI, 64222-000</div>
+              </Link>
+            </div>
+            <div className="space-y-3 text-center sm:text-start">
+              <h3 className="font-medium text-sm uppercase tracking-[0.3rem]">
+                Mero Mar
+              </h3>
+              <Link
+                href="https://maps.app.goo.gl/hMZCaMkEMMwa7W1U8"
+                target="_blank"
+                className="text-xs font-light hover:underline underline-offset-3 text-gray-300"
+              >
+                <div>R. das Prais, S/N - Barra Grande,</div>
+                <div>Cajueiro da Praia - PI, 64222-000</div>
+              </Link>
             </div>
           </div>
 

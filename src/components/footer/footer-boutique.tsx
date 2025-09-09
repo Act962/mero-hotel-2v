@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Send } from "lucide-react";
 
-export function FooterBoutique() {
+export function Footer() {
   return (
     <footer className="flex flex-col items-center justify-center py-24 bg-black text-white px-4 sm:px-8 ">
       {/* Container */}
@@ -23,7 +23,16 @@ export function FooterBoutique() {
 
             <div className="space-y-3 text-center sm:text-start">
               <h3 className="font-medium text-sm uppercase tracking-[0.3rem]">
-                Mero Hotel Boutique
+                Mero Hotel Lounge
+              </h3>
+              <p className="text-xs font-light underline underline-offset-3 text-gray-300">
+                R. das Flores, 300 - Barra Grande, <br />
+                Cajueiro da Praia - PI, 64222-000
+              </p>
+            </div>
+            <div className="space-y-3 text-center sm:text-start">
+              <h3 className="font-medium text-sm uppercase tracking-[0.3rem]">
+                Mero Hotel Mar
               </h3>
               <p className="text-xs font-light underline underline-offset-3 text-gray-300">
                 R. das Flores, 300 - Barra Grande, <br />

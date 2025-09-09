@@ -1,3 +1,4 @@
+import { Footer } from "@/components/footer";
 import { Navbar } from "@/components/navbar";
 import { NextIntlClientProvider } from "next-intl";
 
@@ -12,6 +13,7 @@ export function MeroLoungeLayout({ children }: MeroBoutiqueLayoutProps) {
         <Navbar />
       </NextIntlClientProvider>
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }

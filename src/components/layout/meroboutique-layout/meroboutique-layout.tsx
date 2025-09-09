@@ -1,5 +1,5 @@
 import { CallToBook } from "@/components/call-to-book";
-import { FooterBoutique } from "@/components/footer";
+import { Footer } from "@/components/footer";
 import { NavbarBoutique } from "@/components/navbar";
 import { NextIntlClientProvider } from "next-intl";
 
@@ -15,7 +15,7 @@ export function MeroBoutiqueLayout({ children }: MeroBoutiqueLayoutProps) {
       </NextIntlClientProvider>
       <main>{children}</main>
       <CallToBook />
-      <FooterBoutique />
+      <Footer />
     </div>
   );
 }
