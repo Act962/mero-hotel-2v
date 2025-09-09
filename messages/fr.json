@@ -48,6 +48,11 @@
         "title": "Yahacqua Park",
         "description": "Le Yah Acqua Park est le plus grand parc aquatique du Piauí, situé à Luís Correia, au cœur du littoral. Avec une infrastructure moderne et sûre, il offre du divertissement pour tous les âges. Des attractions passionnantes et des espaces pour se détendre, tout en un seul endroit. Parfait pour créer des souvenirs inoubliables en famille et entre amis.",
         "link": "En savoir plus"
+      },
+      "quadri-aventuras": {
+        "title": "Quadri & Aventures",
+        "description": "Prêt pour l’aventure de vos rêves ? Participez à l’une des balades en quad les plus incroyables et sûres à travers les Lençóis Piauienses. Ressentez l’adrénaline en roulant sur les dunes, plongez dans des lagunes cristallines et profitez d’un coucher de soleil inoubliable. Une expérience qui allie adrénaline, beauté naturelle et pure magie.",
+        "link": "En savoir plus"
       }
     }
   },

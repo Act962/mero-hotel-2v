@@ -490,18 +490,18 @@ export const experiencesGroupMero: Experience[] = [
     ],
   },
   {
-    title: "Revoada dos Guarás",
-    slug: "revoda-dos-guaras",
+    title: "Quadri & Aventuras",
+    slug: "quadri-aventuras",
     description:
-      "A Revoada dos Guarás é um espetáculo natural no Delta do Parnaíba, quando centenas de aves de plumagem vermelha retornam aos ninhos ao entardecer. O fenômeno pinta o céu com tons vibrantes, criando um cenário único e inesquecível. O passeio é feito de lancha, passando por ilhas, dunas e manguezais antes do grande momento.",
+      "Preparado para a aventura dos seus sonhos? Junte-se a um dos passeios de quadriciclo mais incríveis e seguros pelos Lençóis Piauienses. Sinta a emoção de pilotar sobre as dunas, mergulhe em lagoas cristalinas e desfrute de um pôr do sol inesquecível. Uma experiência que combina adrenalina, beleza natural e pura magia.",
     imageUrl: "/experiences/quadri-aventuras.jpg",
-    alt: "Revoada dos Guarás",
+    alt: "Quadri & Aventuras",
     link: "/experiencias",
-    flag: "rovada-dos-guaras",
+    flag: "quadri-aventuras",
     images: [
       {
         url: "/experiences/rovada-dos-guaras.jpg",
-        alt: "Revoada dos Guarás",
+        alt: "Quadri & Aventuras",
       },
     ],
   },
@@ -531,6 +531,22 @@ export const experiencesGroupMero: Experience[] = [
     link: "/experiencias",
     flag: "yahacqua-park",
     images: [],
+  },
+  {
+    title: "Revoada dos Guarás",
+    slug: "revoda-dos-guaras",
+    description:
+      "A Revoada dos Guarás é um espetáculo natural no Delta do Parnaíba, quando centenas de aves de plumagem vermelha retornam aos ninhos ao entardecer. O fenômeno pinta o céu com tons vibrantes, criando um cenário único e inesquecível. O passeio é feito de lancha, passando por ilhas, dunas e manguezais antes do grande momento.",
+    imageUrl: "/experiences/rovada-dos-guaras.jpg",
+    alt: "Revoada dos Guarás",
+    link: "/experiencias",
+    flag: "rovada-dos-guaras",
+    images: [
+      {
+        url: "/experiences/rovada-dos-guaras.jpg",
+        alt: "Revoada dos Guarás",
+      },
+    ],
   },
   {
     title: "Passeio do Peixe-Boi",
