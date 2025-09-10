@@ -22,10 +22,6 @@ export function WelcomeSection() {
           <p className="text-xs sm:text-sm font-light max-w-2xl mx-auto text-justify">
             {t("paragraph-3")}
           </p>
-
-          <p className="text-xs sm:text-sm font-light max-w-2xl mx-auto text-justify">
-            {t("paragraph-4")}
-          </p>
         </div>
       </div>
     </div>

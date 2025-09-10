@@ -31,7 +31,7 @@ const experiences = [
     description:
       "Desperte com um toque de exclusividade no Mero: o nosso Balcony Breakfast torna o início do seu dia verdadeiramente memorável. Saboreie um café da manhã preparado com carinho, servido no conforto do seu quarto. A varanda oferece uma vista deslumbrante para a piscina, acompanhada pela brisa suave e o aroma do café fresco. Uma experiência pensada para surpreender e encantar. Ideal para partilhar a dois ou desfrutar um momento só seu. Comece o dia com tranquilidade, elegância e sabor.",
     link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: false,
+    imagesOnLeft: true,
     images: [
       {
         url: "/meroboutique/experiences/balcony-breakfast-1.jpg",
@@ -56,7 +56,7 @@ const experiences = [
     description:
       "Uma experiência exclusiva pensada para celebrar o amor em todos os detalhes. Almoço ou jantar temático à dois, em um ambiente reservado, com decoração especial, menu personalizado e clima intimista. Cada momento é cuidadosamente preparado para surpreender e emocionar. A brisa suave, os sabores marcantes e a vista encantadora tornam tudo ainda mais inesquecível. Ideal para comemorações ou simplesmente para viver o amor com intensidade. Um convite para sentir, brindar e guardar na memória.",
     link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: true,
+    imagesOnLeft: false,
     images: [
       {
         url: "/meroboutique/experiences/com-amor-mero-1.jpg",
@@ -81,7 +81,7 @@ const experiences = [
     description:
       "Desperte os sentidos e entregue-se ao bem-estar com os rituais do SPA Mero, pensados para proporcionar relaxamento profundo e cuidado integral. O “Ritual Mero” começa com um escalda-pés com esfoliação, seguido de uma massagem à sua escolha e finaliza com um chazinho relaxante com sauna opcional. Já o “Ritual Memorável” eleva a experiência com a adição de uma imersão em jacuzzi com espumante e chá relaxante. As massagens disponíveis incluem as técnicas relaxante, drenagem, terapêutica e desportiva. Um momento exclusivo para renovar corpo, mente e espírito.",
     link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: false,
+    imagesOnLeft: true,
     images: [
       {
         url: "/meroboutique/experiences/spa-1.jpg",
@@ -106,7 +106,7 @@ const experiences = [
     description:
       "Carnaval é no Mero — um festival para viver quatro dias de pura leveza do litoral. Nossa vibe combina o encanto da praia com experiências que despertam os sentidos e convidam ao descanso. Dos sabores da tradicional feijoada à paella valenciana, passando por ostras frescas e galinhada piauiense, cada momento à mesa é uma celebração gastronômica. A trilha sonora fica por conta de atrações musicais que embalam o clima festivo. Um destino de Carnaval pensado para quem busca paz, sabor e boas vibrações.",
     link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: true,
+    imagesOnLeft: false,
     images: [
       {
         url: "/meroboutique/experiences/folia-gourmet-1.jpg",
@@ -131,7 +131,7 @@ const experiences = [
     description:
       "Nossa cozinha une tradição e sofisticação em um menu que valoriza os sabores da região, acompanhado por uma carta de drinks autorais e surpreendentes. Cada refeição no Mbar é uma experiência sensorial, unindo ingredientes locais com um toque de criatividade. Em um ambiente elegante e acolhedor, convidamos você a desfrutar de momentos memoráveis à mesa. Aberto ao público, é o lugar perfeito para saborear, relaxar e brindar com vista para a piscina. Reservas pelo WhatsApp: (86) 99835-7294.",
     link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: false,
+    imagesOnLeft: true,
     images: [
       {
         url: "/meroboutique/experiences/mbar-1.jpg",
@@ -156,7 +156,7 @@ const experiences = [
     description:
       "Pensado para tornar sua estadia ainda mais especial, oferecemos um serviço exclusivo de translado para hóspedes, com saída diária a partir das 10h. Do Mero Hotel Boutique ao Mero Mar Lounge, você desfruta de um trajeto confortável, com segurança e pontualidade. Tudo isso sob agendamento prévio, para garantir comodidade e organização. Aproveite cada instante da sua viagem, inclusive o percurso. Viva o Mero desde o primeiro passo!",
     link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: true,
+    imagesOnLeft: false,
     images: [
       {
         url: "/meroboutique/experiences/translado-mero-1.JPG",
@@ -181,7 +181,7 @@ const experiences = [
     description:
       "É uma experiência para quem deseja viver o pôr do sol mais encantador de Barra Grande-PI. No Mero Mar Lounge, o cenário à beira-mar se completa com drinks autorais, gastronomia marcante e sets envolventes de DJs que transformam o entardecer em celebração. Como hóspede do Mero, você tem benefícios especiais: isenção da taxa de consumação mínima, translado gratuito (mediante agendamento) e acesso com reserva antecipada. Um fim de tarde memorável, para relaxar, brindar e aproveitar o melhor da vida frente ao mar.",
     link: "/meroboutique/acomodacoes/premium",
-    imagesOnLeft: false,
+    imagesOnLeft: true,
     images: [
       {
         url: "/meroboutique/experiences/sunset-mero-1.jpg",

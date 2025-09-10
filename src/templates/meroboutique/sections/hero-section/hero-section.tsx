@@ -19,11 +19,14 @@ export function HeroSection() {
         </h1>
 
         <p className="text-sm max-w-5xl">
-          No Mero Hotel Boutique, em Barra Grande-PI, cada amanhecer é
-          memorável. Nosso refúgio mediterrâneo oferece acomodações com piscinas
-          privativas ou jacuzzis, massagens e hidromassagens térmicas. Desfrute
-          do chá da tarde e do acesso ao Mero Mar Lounge. Atendimento dedicado e
-          café da manhã na varanda opcional elevam a experiência.
+          Descubra o paraíso privativo em Barra Grande-PI. O Mero Hotel Boutique
+          é mais que uma hospedagem; é um convite à exclusividade. Nossas
+          acomodações de estilo mediterrâneo oferecem o máximo de luxo, com a
+          privacidade de piscinas ou jacuzzis exclusivas. Viva uma jornada de
+          bem-estar com massagens e hidromassagens térmicas, e deleite-se com
+          nosso especial chá da tarde. A experiência se eleva com um atendimento
+          dedicado e um café da manhã opcional na sua varanda, garantindo que
+          cada desejo seja realizado.
         </p>
       </div>
     </div>

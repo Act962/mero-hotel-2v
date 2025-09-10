@@ -4,7 +4,7 @@ const accommodations = [
   {
     title: "Acomodações",
     description:
-      "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
+      "Seu refúgio espera por você. No Mero Hotel Boutique, cada uma das suas unidades habitacionais em estilo grego é um convite ao conforto e à privacidade, com varandas voltadas para a deslumbrante piscina. Imagine-se em um dos nossos apartamentos com piscina e jacuzzi privativas, um verdadeiro charme para momentos inesquecíveis. Aqui, cada detalhe foi pensado para criar a atmosfera perfeita para sua estadia dos sonhos.",
     link: "/meroboutique/acomodacoes",
     imagesOnLeft: false,
     images: [
@@ -21,7 +21,7 @@ const accommodations = [
   {
     title: "Gastronomia",
     description:
-      "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
+      "Aqui, cada momento é um presente. Mergulhe em um universo de bem-estar com nosso spa, sauna e espaço fitness. Relaxe nas hidromassagens térmicas ao ar livre ou opte por um café da manhã na privacidade da sua varanda. Para completar, nosso serviço de carrinho de golfe leva você até o Mero Lounge, onde o sol, o mar e drinks refrescantes se unem em um cenário perfeito.",
     link: "/meroboutique/gastronomia",
     imagesOnLeft: true,
     images: [

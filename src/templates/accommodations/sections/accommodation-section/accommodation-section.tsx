@@ -129,7 +129,7 @@ const accommodations = [
   {
     title: "PRESIDENT",
     description:
-      "Seu refúgio exclusivo de 45m² espera. Em um prédio reservado, desfrute do primeiro ou segundo piso, com varanda privativa, quarto e sala. Relaxe na banheira com hidromassagem e sinta o luxo de uma cama King Size. Cada detalhe pensado para a sua estadia presidencial.",
+      "Um santuário particular onde o tempo é seu. Nossas Suítes President, discretamente localizadas em um prédio reservado, foram concebidas para oferecer o máximo de conforto e intimidade. Com 45m², ela se desdobra em um ambiente amplo com sala integrada a um quarto muito elegante. Permita-se relaxar na hidromassagem e sinta a maciez de uma cama King Size, em uma experiência que se eleva muito acima do comum.",
     link: "/meroboutique/acomodacoes/president",
     imagesOnLeft: true,
     images: [
