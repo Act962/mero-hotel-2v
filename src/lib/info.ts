@@ -487,6 +487,10 @@ export const experiencesGroupMero: Experience[] = [
         url: "/experiences/kite-surf.jpg",
         alt: "Kite Surf",
       },
+      {
+        url: "/experiences/kite-surf-2.jpg",
+        alt: "Kite Surf",
+      },
     ],
   },
   {
@@ -500,7 +504,7 @@ export const experiencesGroupMero: Experience[] = [
     flag: "quadri-aventuras",
     images: [
       {
-        url: "/experiences/rovada-dos-guaras.jpg",
+        url: "/experiences/quadri-aventuras.jpg",
         alt: "Quadri & Aventuras",
       },
     ],
@@ -530,7 +534,16 @@ export const experiencesGroupMero: Experience[] = [
     alt: "Yahacqua Park",
     link: "/experiencias",
     flag: "yahacqua-park",
-    images: [],
+    images: [
+      {
+        url: "/experiences/yahacqua-park.jpeg",
+        alt: "Yahacqua Park",
+      },
+      {
+        url: "/experiences/yahacqua-park-2.jpeg",
+        alt: "Yahacqua Park",
+      },
+    ],
   },
   {
     title: "Revoada dos Guarás",
@@ -546,6 +559,10 @@ export const experiencesGroupMero: Experience[] = [
         url: "/experiences/rovada-dos-guaras.jpg",
         alt: "Revoada dos Guarás",
       },
+      {
+        url: "/experiences/revoada-dos-guaras-1.jpg",
+        alt: "Revoada dos Guarás",
+      },
     ],
   },
   {
@@ -557,7 +574,12 @@ export const experiencesGroupMero: Experience[] = [
     alt: "Passeio do Peixe-Boi",
     link: "/experiencias",
     flag: "passeio-do-peixe-boi",
-    images: [],
+    images: [
+      {
+        url: "/experiences/peixe-boi.jpg",
+        alt: "Passeio do Peixe-Boi",
+      },
+    ],
   },
   {
     title: "Tour do Cavalo-Marinho",
@@ -568,7 +590,16 @@ export const experiencesGroupMero: Experience[] = [
     alt: "Tour do Cavalo-Marinho",
     link: "",
     flag: "tour-do-cavalo-marinho",
-    images: [],
+    images: [
+      {
+        url: "/experiences/cavalo-marinho-2.jpg",
+        alt: "Tour do Cavalo-Marinho",
+      },
+      {
+        url: "/experiences/cavalo-marinho-3.jpg",
+        alt: "Tour do Cavalo-Marinho",
+      },
+    ],
   },
   {
     title: "Lençóis Piauienses",
@@ -579,7 +610,16 @@ export const experiencesGroupMero: Experience[] = [
     alt: "Lençóis Piauienses",
     link: "",
     flag: "lencois-piauienses",
-    images: [],
+    images: [
+      {
+        url: "/experiences/lencois-pi-1.jpg",
+        alt: "Lençóis Piauienses",
+      },
+      {
+        url: "/experiences/lencois-pi-3.jpg",
+        alt: "Lençóis Piauienses",
+      },
+    ],
   },
   {
     title: "Artesanatos",
@@ -590,6 +630,15 @@ export const experiencesGroupMero: Experience[] = [
     alt: "Artesanatos",
     link: "",
     flag: "artesanatos",
-    images: [],
+    images: [
+      {
+        url: "/experiences/artesanato-5.jpg",
+        alt: "Artesanatos",
+      },
+      {
+        url: "/experiences/artesanato-4.jpg",
+        alt: "Artesanatos",
+      },
+    ],
   },
 ];

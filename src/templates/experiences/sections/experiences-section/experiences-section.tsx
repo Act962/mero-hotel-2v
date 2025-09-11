@@ -1,7 +1,7 @@
 import { experiencesGroupMero } from "@/lib/info";
 import { ExperienceCard } from "./experience-card";
 
-const rooms = experiencesGroupMero
+const rooms = experiencesGroupMero;
 
 export function ExperienceSection() {
   return (
@@ -14,6 +14,7 @@ export function ExperienceSection() {
               title={room.title}
               description={room.description}
               imageUrl={room.imageUrl}
+              images={room.images}
               alt={room.alt}
               flag={room.flag}
               slug={room.slug}
