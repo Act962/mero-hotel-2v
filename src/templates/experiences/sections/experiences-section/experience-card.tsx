@@ -1,6 +1,5 @@
-import { ExperienceCarousel } from "@/templates/accommodations/sections/accommodation-section/carousel-images";
 import { Experience } from "@/types/experiences";
-import Image from "next/image";
+import { ExperienceCarousel } from "./experience-carousel";
 
 export function ExperienceCard({
   title,

@@ -15,7 +15,7 @@ interface CarouselImagesProps {
   images: Images[];
 }
 
-export const ExperienceCarousel = ({ images }: CarouselImagesProps) => {
+export const CarouselImages = ({ images }: CarouselImagesProps) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({});
 
   const { selectedIndex, scrollSnaps, onDotButtonClick } =

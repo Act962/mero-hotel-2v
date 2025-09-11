@@ -15,7 +15,7 @@ interface CarouselImagesProps {
   images: Images[];
 }
 
-export const CarouselImages = ({ images }: CarouselImagesProps) => {
+export const ExperienceCarousel = ({ images }: CarouselImagesProps) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({});
 
   const { selectedIndex, scrollSnaps, onDotButtonClick } =
@@ -41,19 +41,21 @@ export const CarouselImages = ({ images }: CarouselImagesProps) => {
         </div>
       </div>
       {/* DotsButton */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1">
-        {scrollSnaps.map((_, index) => (
-          <button
-            key={`dot-${index}`}
-            onClick={() => onDotButtonClick(index)}
-            className="cursor-pointer size-4 rounded-full border-2 border-white flex items-center justify-center"
-          >
-            {index === selectedIndex ? (
-              <div className="size-2 rounded-full bg-white" />
-            ) : null}
-          </button>
-        ))}
-      </div>
+      {images.length > 1 && (
+        <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-1">
+          {scrollSnaps.map((_, index) => (
+            <button
+              key={`dot-${index}`}
+              onClick={() => onDotButtonClick(index)}
+              className="cursor-pointer size-4 rounded-full border-2 border-white flex items-center justify-center"
+            >
+              {index === selectedIndex ? (
+                <div className="size-2 rounded-full bg-white" />
+              ) : null}
+            </button>
+          ))}
+        </div>
+      )}
       <div></div>
     </article>
   );
