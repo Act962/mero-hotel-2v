@@ -88,15 +88,15 @@ const accommodations = [
         alt: "Drinks 1",
       },
       {
-        url: "/meroboutique/gastronomia/drinks-1.jpg",
+        url: "/meroboutique/gastronomia/drinks-2.jpg",
         alt: "Drinks 2",
       },
       {
-        url: "/meroboutique/gastronomia/drinks-1.jpg",
+        url: "/meroboutique/gastronomia/drinks-3.jpg",
         alt: "Drinks 3",
       },
       {
-        url: "/meroboutique/gastronomia/drinks-1.jpg",
+        url: "/meroboutique/gastronomia/drinks-4.jpg",
         alt: "Drinks 4",
       },
     ],
