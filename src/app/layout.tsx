@@ -42,7 +42,16 @@ export const metadata: Metadata = {
   description:
     "Aqui você encontra conforto de verdade. Barra Grande pulsa em um ritmo único, e o Grupo Mero te convida a vivenciar cada batida.",
   icons: {
-    icon: "/Logo.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+    other: [
+      {
+        url: "/favicon.png",
+        type: "image/png",
+        sizes: "16x16",
+      },
+    ],
   },
   openGraph: {
     title: "Mero Hotel",
