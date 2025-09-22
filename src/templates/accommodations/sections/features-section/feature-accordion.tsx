@@ -9,7 +9,7 @@ import { Accomodation } from "@/types/accomodation";
 const features = [
   {
     id: "1",
-    title: "Visão Geral da Suite",
+    title: "Visão Geral do Apartamento",
     description: "...",
   },
   {

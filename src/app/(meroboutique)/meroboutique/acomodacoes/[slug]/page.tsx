@@ -23,7 +23,7 @@ export async function generateMetadata({
   }
 
   return {
-    title: accomodation.name,
+    title: `Mero Boutique | ${accomodation.name}`,
     description: accomodation.description,
     robots: "index, follow",
     openGraph: {

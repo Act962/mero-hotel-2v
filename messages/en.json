@@ -50,7 +50,27 @@
       },
       "quadri-aventuras": {
         "title": "Quadri & Adventures",
-        "description": "Ready for the adventure of your dreams? Join one of the most incredible and safest ATV rides through the Lençóis Piauienses. Feel the thrill of riding over the dunes, dive into crystal-clear lagoons, and enjoy an unforgettable sunset. An experience that combines adrenaline, natural beauty, and pure magic.",
+        "description": "Ready for the adventure of your dreams? Join one of the most incredible and safe ATV tours through the Piauí Dunes. Feel the thrill of riding over the dunes, dive into crystal-clear lagoons, and enjoy an unforgettable sunset. An experience that combines adrenaline, natural beauty, and pure magic.",
+        "link": "Learn more"
+      },
+      "passeio-do-peixe-boi": {
+        "title": "Manatee Tour",
+        "description": "The Manatee Tour begins in Cajueiro da Praia and follows the Tininha River to the estuary for species observation. Unique in the world with open-sea monitoring, it protects the most endangered aquatic mammal. On the Piauí coast, manatees find clear and safe waters to live and reproduce. The experience lasts about 3 hours, combining ecotourism and environmental preservation.",
+        "link": "Learn more"
+      },
+      "tour-do-cavalo-marinho": {
+        "title": "Seahorse Tour",
+        "description": "The Seahorse Tour begins with a horse-drawn cart journey through the village of Barra Grande, revealing local culture. Then, the adventure continues by canoe through mangroves and streams, observing native fauna and flora. There's a stop for swimming in clear waters and the possibility of safely experiencing crab catching. The highlight is observing seahorses in their natural habitat, ending with a return along the beach.",
+        "link": "Learn more"
+      },
+      "lencois-piauienses": {
+        "title": "Piauí Dunes",
+        "description": "The Piauí Dunes, located between Parnaíba and Luís Correia, form a paradise of dunes and crystal-clear lagoons that change scenery each season. They offer intimate contact with nature and free entry. Their unique sands and vegetation create an enchanting view, ideal for relaxing or adventuring. Perfect for those seeking tranquility, stunning landscapes, and experiences on the Emotions Route.",
+        "link": "Learn more"
+      },
+      "artesanatos": {
+        "title": "Handicrafts",
+        "description": "The handicrafts of Barra Grande, in Piauí, reflect the identity and tradition of the old fishing village. Handmade by talented artisans, they use local raw materials like carnaúba palm straw, shells, and natural fibers. Each piece carries stories, knowledge, and the touch of Piauí culture. They are authentic souvenirs that unite beauty, utility, and appreciation of local production.",
         "link": "Learn more"
       }
     }

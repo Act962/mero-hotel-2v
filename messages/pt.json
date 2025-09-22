@@ -50,7 +50,27 @@
       },
       "quadri-aventuras": {
         "title": "Quadri & Aventuras",
-        "description": "Preparado para a aventura dos seus sonhos? Junte-se a um dos passeios de quadriciclo mais incríveis e seguros pelos Lençóis Piauienses. Sinta a emoção de pilotar sobre as dunas, mergulhe em lagoas cristalinas e desfrute de um pôr do sol inesquecível. Uma experiência que combina adrenalina, beleza natural e pura magia.",
+        "description": "Preparado para a aventura dos seus sonhos? Junte-se a um dos passeios de quadriciclo mais incríveis e seguros pelos Lençóis Piauienses. Sinta a emoção de pilotar sobre as dunas, mergulhe em lagoas cristalinas e desfrute de um pôr do sol inesquecível. Uma experiência que combina adrenalina, beleza natural e pura magia.",
+        "link": "Saiba mais"
+      },
+      "passeio-do-peixe-boi": {
+        "title": "Passeio do Peixe-Boi",
+        "description": "O Passeio do Peixe-Boi começa em Cajueiro da Praia e segue pelo rio Tininha até o estuário para observação da espécie. Único no mundo com monitoramento em mar aberto, protege o mamífero aquático mais ameaçado de extinção. No litoral piauiense, o peixe-boi encontra águas claras e seguras para viver e se reproduzir. A experiência dura cerca de 3 horas, unindo ecoturismo e preservação ambiental.",
+        "link": "Saiba mais"
+      },
+      "tour-do-cavalo-marinho": {
+        "title": "Tour do Cavalo-Marinho",
+        "description": "A Tour do Cavalo-Marinho começa com um trajeto de charrete pelo vilarejo de Barra Grande, revelando a cultura local. Em seguida, a aventura segue de canoa por mangues e igarapés, com observação de fauna e flora nativas. Há parada para banho em águas claras e possibilidade de vivenciar a cata do caranguejo com segurança. O ponto alto é a observação do cavalo-marinho em seu habitat natural, finalizando com retorno pela beira da praia.",
+        "link": "Saiba mais"
+      },
+      "lencois-piauienses": {
+        "title": "Lençóis Piauienses",
+        "description": "Os Lençóis Piauienses, localizados entre Parnaíba e Luís Correia, formam um paraíso de dunas e lagoas cristalinas que mudam de cenário a cada estação. Oferecem contato íntimo com a natureza e entrada gratuita. Suas areias e vegetação únicas criam um visual encantador, ideal para relaxar ou se aventurar. Perfeito para quem busca tranquilidade, paisagens deslumbrantes e experiências na Rota das Emoções.",
+        "link": "Saiba mais"
+      },
+      "artesanatos": {
+        "title": "Artesanatos",
+        "description": "Os artesanatos de Barra Grande, no Piauí, refletem a identidade e a tradição da antiga vila de pescadores. Feitos à mão por talentosos artesãos, utilizam matérias-primas locais como palha de carnaúba, conchas e fibras naturais. Cada peça carrega histórias, saberes e o toque da cultura piauiense. São lembranças autênticas que unem beleza, utilidade e valorização da produção local.",
         "link": "Saiba mais"
       }
     }

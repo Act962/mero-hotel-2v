@@ -50,7 +50,27 @@
       },
       "quadri-aventuras": {
         "title": "Quadri & Aventuras",
-        "description": "¿Listo para la aventura de tus sueños? Únete a uno de los paseos en cuatrimoto más increíbles y seguros por los Lençóis Piauienses. Siente la emoción de conducir sobre las dunas, sumérgete en lagunas cristalinas y disfruta de una puesta de sol inolvidable. Una experiencia que combina adrenalina, belleza natural y pura magia.",
+        "description": "¿Preparado para la aventura de tus sueños? Únete a uno de los paseos en cuatriciclo más increíbles y seguros por las Dunas de Piauí. Siente la emoción de conducir sobre las dunas, sumérgete en lagunas cristalinas y disfruta de un atardecer inolvidable. Una experiencia que combina adrenalina, belleza natural y pura magia.",
+        "link": "Saber más"
+      },
+      "passeio-do-peixe-boi": {
+        "title": "Paseo del Manatí",
+        "description": "El Paseo del Manatí comienza en Cajueiro da Praia y sigue por el río Tininha hasta el estuario para observación de la especie. Único en el mundo con monitoreo en mar abierto, protege al mamífero acuático más amenazado de extinción. En el litoral de Piauí, el manatí encuentra aguas claras y seguras para vivir y reproducirse. La experiencia dura cerca de 3 horas, uniendo ecoturismo y preservación ambiental.",
+        "link": "Saber más"
+      },
+      "tour-do-cavalo-marinho": {
+        "title": "Tour del Caballito de Mar",
+        "description": "El Tour del Caballito de Mar comienza con un trayecto en carreta por el pueblo de Barra Grande, revelando la cultura local. Luego, la aventura continúa en canoa por manglares y arroyos, con observación de fauna y flora nativas. Hay parada para baño en aguas claras y posibilidad de vivenciar la pesca del cangrejo con seguridad. El punto alto es la observación del caballito de mar en su hábitat natural, finalizando con retorno por la orilla de la playa.",
+        "link": "Saber más"
+      },
+      "lencois-piauienses": {
+        "title": "Dunas de Piauí",
+        "description": "Las Dunas de Piauí, ubicadas entre Parnaíba y Luís Correia, forman un paraíso de dunas y lagunas cristalinas que cambian de escenario cada estación. Ofrecen contacto íntimo con la naturaleza y entrada gratuita. Sus arenas y vegetación únicas crean un visual encantador, ideal para relajarse o aventurarse. Perfecto para quien busca tranquilidad, paisajes deslumbrantes y experiencias en la Ruta de las Emociones.",
+        "link": "Saber más"
+      },
+      "artesanatos": {
+        "title": "Artesanías",
+        "description": "Las artesanías de Barra Grande, en Piauí, reflejan la identidad y tradición del antiguo pueblo de pescadores. Hechas a mano por talentosos artesanos, utilizan materias primas locales como paja de carnaúba, conchas y fibras naturales. Cada pieza lleva historias, saberes y el toque de la cultura de Piauí. Son recuerdos auténticos que unen belleza, utilidad y valorización de la producción local.",
         "link": "Saber más"
       }
     }

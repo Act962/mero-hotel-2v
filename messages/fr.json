@@ -50,7 +50,27 @@
       },
       "quadri-aventuras": {
         "title": "Quadri & Aventures",
-        "description": "Prêt pour l’aventure de vos rêves ? Participez à l’une des balades en quad les plus incroyables et sûres à travers les Lençóis Piauienses. Ressentez l’adrénaline en roulant sur les dunes, plongez dans des lagunes cristallines et profitez d’un coucher de soleil inoubliable. Une expérience qui allie adrénaline, beauté naturelle et pure magie.",
+        "description": "Prêt pour l'aventure de vos rêves ? Rejoignez l'une des excursions en quad les plus incroyables et sûres à travers les Dunes du Piauí. Ressentez l'émotion de rouler sur les dunes, plongez dans des lagons cristallins et profitez d'un coucher de soleil inoubliable. Une expérience qui combine adrénaline, beauté naturelle et pure magie.",
+        "link": "En savoir plus"
+      },
+      "passeio-do-peixe-boi": {
+        "title": "Excursion du Lamantin",
+        "description": "L'Excursion du Lamantin commence à Cajueiro da Praia et suit la rivière Tininha jusqu'à l'estuaire pour l'observation de l'espèce. Unique au monde avec surveillance en mer ouverte, elle protège le mammifère aquatique le plus menacé d'extinction. Sur la côte du Piauí, le lamantin trouve des eaux claires et sûres pour vivre et se reproduire. L'expérience dure environ 3 heures, alliant écotourisme et préservation environnementale.",
+        "link": "En savoir plus"
+      },
+      "tour-do-cavalo-marinho": {
+        "title": "Tour de l'Hippocampe",
+        "description": "Le Tour de l'Hippocampe commence par un trajet en charrette dans le village de Barra Grande, révélant la culture locale. Ensuite, l'aventure se poursuit en canoë à travers mangroves et ruisseaux, avec observation de la faune et flore natives. Il y a un arrêt pour se baigner dans des eaux claires et la possibilité de vivre la pêche au crabe en sécurité. Le point culminant est l'observation de l'hippocampe dans son habitat naturel, se terminant par un retour le long de la plage.",
+        "link": "En savoir plus"
+      },
+      "lencois-piauienses": {
+        "title": "Dunes du Piauí",
+        "description": "Les Dunes du Piauí, situées entre Parnaíba et Luís Correia, forment un paradis de dunes et lagons cristallins qui changent de paysage à chaque saison. Elles offrent un contact intime avec la nature et une entrée gratuite. Leurs sables et végétation uniques créent une vue enchanteresse, idéale pour se détendre ou s'aventurer. Parfait pour ceux qui cherchent tranquillité, paysages époustouflants et expériences sur la Route des Émotions.",
+        "link": "En savoir plus"
+      },
+      "artesanatos": {
+        "title": "Artisanats",
+        "description": "Les artisanats de Barra Grande, au Piauí, reflètent l'identité et la tradition de l'ancien village de pêcheurs. Faits à la main par des artisans talentueux, ils utilisent des matières premières locales comme la paille de carnaúba, coquillages et fibres naturelles. Chaque pièce porte des histoires, savoirs et la touche de la culture du Piauí. Ce sont des souvenirs authentiques qui unissent beauté, utilité et valorisation de la production locale.",
         "link": "En savoir plus"
       }
     }
