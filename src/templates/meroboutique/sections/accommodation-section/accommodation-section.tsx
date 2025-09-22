@@ -21,7 +21,7 @@ const accommodations = [
   {
     title: "Gastronomia",
     description:
-      "Aqui, cada momento é um presente. Mergulhe em um universo de bem-estar com nosso spa, sauna e espaço fitness. Relaxe nas hidromassagens térmicas ao ar livre ou opte por um café da manhã na privacidade da sua varanda. Para completar, nosso serviço de carrinho de golfe leva você até o Mero Lounge, onde o sol, o mar e drinks refrescantes se unem em um cenário perfeito.",
+      "Uma culinária feita com amor. No Mero Hotel, a gastronomia é uma experiência à parte, começando com um café da manhã completo e seguindo com um delicioso chá da tarde. Desfrute de pratos e petiscos saborosos, preparados para serem compartilhados em momentos de descontração. É a oportunidade perfeita para criar memórias inesquecíveis à mesa.",
     link: "/meroboutique/gastronomia",
     imagesOnLeft: true,
     images: [
@@ -38,7 +38,7 @@ const accommodations = [
   {
     title: "Experiência",
     description:
-      "Localizados no térreo e no 1º piso, área total de 23 m², distribuídos entre varanda privativa, quarto e banheiro. Acomodam até 02 pessoas em cama de casal (King Size). Possui ar condicionado split, 01 TV Smart 40”, acesso gratuito ao wi-fi, mesa de trabalho, frigobar, cofre eletrônico, e apoio de cabeceira. Espelho de corpo inteiro, armário com cabides e portas, ferro e mesa de passar roupa, secador de cabelo e blackout nas cortinas.",
+      "Aqui, cada momento é um presente. Mergulhe em um universo de bem-estar com nosso spa, sauna e espaço fitness. Relaxe nas hidromassagens térmicas ao ar livre ou opte por um café da manhã na privacidade da sua varanda. Para completar, nosso serviço de carrinho de golfe leva você até o Mero Lounge, onde o sol, o mar e drinks refrescantes se unem em um cenário perfeito.",
     link: "/meroboutique/experiencias",
     imagesOnLeft: false,
     images: [
