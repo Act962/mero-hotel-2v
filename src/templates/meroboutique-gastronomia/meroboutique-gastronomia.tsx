@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero";
 import { GastronomiaSection } from "./sections";
+import { Location } from "@/components/location";
 
 export function GastronomiaPage() {
   return (
@@ -12,6 +13,7 @@ export function GastronomiaPage() {
         }}
       />
       <GastronomiaSection />
+      <Location />
     </>
   );
 }

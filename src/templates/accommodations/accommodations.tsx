@@ -1,3 +1,4 @@
+import { Location } from "@/components/location";
 import { AccommodationSection, HeroSection } from "./sections";
 
 export function AccommodationsPage() {
@@ -5,6 +6,7 @@ export function AccommodationsPage() {
     <>
       <HeroSection />
       <AccommodationSection />
+      <Location />
     </>
   );
 }

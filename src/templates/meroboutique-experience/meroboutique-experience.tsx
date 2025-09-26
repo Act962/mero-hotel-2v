@@ -1,5 +1,6 @@
 import { Hero } from "@/components/hero";
 import { ExperienceSection } from "./sections";
+import { Location } from "@/components/location";
 
 export function ExperiencePage() {
   return (
@@ -12,6 +13,7 @@ export function ExperiencePage() {
         }}
       />
       <ExperienceSection />
+      <Location />
     </>
   );
 }
