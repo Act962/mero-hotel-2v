@@ -1,5 +1,6 @@
 import React from "react";
 import { AccommodationSection, GallerySection, HeroSection } from "./sections";
+import { Location } from "@/components/location";
 
 export function MeroBoutiquePage() {
   return (
@@ -7,6 +8,7 @@ export function MeroBoutiquePage() {
       <HeroSection />
       <AccommodationSection />
       <GallerySection />
+      <Location />
     </>
   );
 }
